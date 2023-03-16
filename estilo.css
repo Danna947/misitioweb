@@ -4,7 +4,8 @@
  
 }
 body{
-    background-color: royalblue;
+    background-color: rgb(110, 139, 226);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -47,7 +48,7 @@ nav ul ul ul{
     top:0;
 }
 .sub-sub{
-    background-color:rgb(161, 90, 228) ;
+    background-color:rgb(173, 122, 221) ;
 
 }
 a{
@@ -60,5 +61,6 @@ img{
     width: 100%;
 }
 nav ul ul{
-    text-align: center;
+    text-align: center; 
+
 }
