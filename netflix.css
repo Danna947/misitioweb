@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(216, 127, 127);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
+    color: rgb(31, 162, 214);
+
+}
+@font-face{
+   
+}

@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(152,251,152);
+}
+blockquote{
+    font-size: 1.4em;
+    color:royalblue;
+    text-align: justify;
+}
+
+
+.cont {
+    display: inline-block;
+    text-align: center;
+    margin: 6em 3em 3em 3em;
+    width: 350px;
+    height: 250px;
+    background-color: rgb(168, 31, 127);
+}
+
+.cont-1 {
+margin-top: 4px;
+padding: 25px rgb(202, 152, 111);
+background-color: rgb(206, 105, 105);
+margin-bottom: 20px;
+border: 5px solid black;
+
+}
+
+.cont-2 {
+margin-top: 2px;
+
+
+padding: 25px rgb(122, 219, 127);
+background-color: rgb(23, 107, 93);
+margin-bottom: 20px;
+border: 5px Dotted black;
+
+}
+
+.box-3 {
+margin-top: 2px;
+padding: 25px rgb(175, 105, 196);
+background-color: rgb(101, 22, 167);
+margin-bottom: 20px;
+border: 5px Dashed black;
+
+}
+
+
+.box-4 {
+margin-top: 2px;
+
+padding: 25px rgb(67, 156, 90);
+background-color: rgb(31, 71, 4);
+margin-bottom: 20px;
+border: 5px Double black;
+
+}
+
+.box-5 {
+margin-top: 2px;
+padding: 25px rgb(189, 163, 78);
+background-color: rgb(221, 141, 37);
+margin-bottom: 20px;
+border: 5px  Groove black;
+
+}

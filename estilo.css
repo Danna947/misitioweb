@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+ 
+}
+body{
+    background-color: royalblue;
+}
+
+
+
+nav ul{
+    margin-top: 0;
+    list-style: none;
+    background: rgb(161, 90, 228);
+    position: absolute;
+    width: 100%;
+
+}
+nav > ul > li{
+    display: inline-block;
+    width: 320px;
+    line-height: 90px;
+}
+nav li{
+    position: relative;
+    text-align: center;
+    color: beige;
+    font-size: 25px
+}
+nav li li {
+    max-height: 0;
+    transition: all 1s;
+    overflow: hidden;
+
+}
+nav li:hover > ul >li
+{
+visibility: visible;
+max-height: 500px;
+overflow: visible;
+
+}
+nav ul ul ul{
+    left: 100%;
+    top:0;
+}
+.sub-sub{
+    background-color:rgb(161, 90, 228) ;
+
+}
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: black;
+  
+}
+img{
+    width: 100%;
+}
+nav ul ul{
+    text-align: center;
+}
