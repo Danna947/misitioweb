@@ -4,14 +4,14 @@
  
 }
 body{
-    background-color: rgb(103, 203, 250);
+    background-color: rgb(173, 186, 247);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav ul{
     margin-top: 0;
     list-style: none;
-    background:slateblue;
+    background:rgba(174, 112, 231, 0.445);
     position: absolute;
     width: 100%;
 
@@ -49,6 +49,7 @@ nav ul ul ul{
 
 }
 a{
+    color:darkorchid;
     text-decoration: none;
     border-radius: 5px;
     border-color: black;
