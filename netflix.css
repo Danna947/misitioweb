@@ -1,16 +1,21 @@
 body{
-    background-color: rgb(216, 127, 127);
+  
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: black;
 }
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 5em;
-    color: rgb(31, 162, 214);
+    font-family: 'Oswald', sans-serif;
+    font-size: 8em;
+    color: rgb(245, 17, 74);
+    
 
 }
-@font-face{
-   
+h2{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(245, 17, 74);
+    font-size: 4em;
+    text-align: left;
 }

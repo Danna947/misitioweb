@@ -1,66 +1,64 @@
 body{
-    background-color: rgb(152,251,152);
+    background-color: rgb(106, 196, 106);
 }
 blockquote{
     font-size: 1.4em;
-    color:royalblue;
+    color:rgb(225, 102, 65);
     text-align: justify;
 }
 
 
-.cont {
+.cont{
     display: inline-block;
     text-align: center;
     margin: 6em 3em 3em 3em;
-    width: 350px;
-    height: 250px;
-    background-color: rgb(168, 31, 127);
+    width: 250px;
+    height: 350px;
+    background-color: rgb(51, 228, 28);
 }
 
 .cont-1 {
 margin-top: 4px;
-padding: 25px rgb(202, 152, 111);
-background-color: rgb(206, 105, 105);
-margin-bottom: 20px;
-border: 5px solid black;
+padding: 25px;
+background-color: rgb(13, 192, 147);
+border: 6px Dotted rgb(216, 23, 23);
+
 
 }
 
 .cont-2 {
-margin-top: 2px;
-
-
-padding: 25px rgb(122, 219, 127);
-background-color: rgb(23, 107, 93);
+margin-top: 4px;
+padding: 25px;
+background-color: rgb(224, 16, 214);
 margin-bottom: 20px;
-border: 5px Dotted black;
+border: 5px Dotted rgb(235, 11, 11);
 
 }
 
-.box-3 {
-margin-top: 2px;
-padding: 25px rgb(175, 105, 196);
+.cont-3 {
+margin-top: 4px;
+padding: 25px rgb(19, 103, 212);
 background-color: rgb(101, 22, 167);
 margin-bottom: 20px;
-border: 5px Dashed black;
+border: 5px Dashed rgb(212, 16, 16);
 
 }
 
 
-.box-4 {
-margin-top: 2px;
+.cont-4 {
+margin-top: 4px;
 
-padding: 25px rgb(67, 156, 90);
-background-color: rgb(31, 71, 4);
-margin-bottom: 20px;
-border: 5px Double black;
+padding: 25px rgb(11, 219, 67);
+background-color: rgb(14, 212, 219);
+margin-bottom: 25px;
+border: 5px Double rgb(230, 11, 11);
 
 }
 
-.box-5 {
-margin-top: 2px;
-padding: 25px rgb(189, 163, 78);
-background-color: rgb(221, 141, 37);
+.cont-5 {
+margin-top: 4px;
+padding: 25px rgb(209, 8, 8);
+background-color: rgb(31, 12, 202);
 margin-bottom: 20px;
 border: 5px  Groove black;
 
