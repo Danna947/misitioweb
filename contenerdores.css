@@ -2,106 +2,102 @@ body {
     background-color: darkgrey;
 }
 
-.cont{
-    color: rgb(182, 241, 20);
+.first
+{
+    color: black;
     align-items: center;
     display: flex;
-
     justify-content: center;
-    text-shadow: 20px 12px 10px rgb(78, 78, 78);
+ 
     
 }
+.second{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.third{
+    color: black;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.text{
+    text-align: left;
+}
 .contenedor1 {
-    border-radius: 8px;
-    border: 1.5px black solid;
+    border-radius: 10px;
+    border: 2.4px black solid;
     justify-content: center;
     display: flex;
-    margin: 20px;
+    margin: 15px;
     width: 260px;
     height: 260px;
-    background-color: rgb(188, 185, 190);
-
-    box-shadow: 40px 20px 38px rgb(172, 173, 81);
+    background-color: rgb(202, 144, 241);
+    box-shadow: 30px 25px 15px  rgb(75, 0, 130);
 }
-
-.PRIMARIO {
-    justify-content: center;
-    display: flex;
-}
-
-.SEGUNDARIO {
-    display: flex;
-    justify-content: center;
-}
-
 .contenedor2 {
-    border-radius: 8px;
-    border: 1.5px black solid;
+    border-radius: 10px;
+    border: 2.4px black solid;
     justify-content: center;
-    margin: 20px;
     display: flex;
+    margin: 15px;
     width: 260px;
     height: 260px;
-    background-color: rgb(188, 185, 190);
+    background-color: rgb(202, 144, 241);
+    box-shadow: 30px 25px 15px  rgb(75, 0, 130);
 
-    box-shadow: 40px 25px 30px rgb(62, 80, 182);
 }
-
 .contenedor3 {
-    border-radius: 8px;
-    border: 1.5px black solid;
+    border-radius: 10px;
+    border: 2.4px black solid;
     justify-content: center;
-    margin: 20px;
     display: flex;
+    margin: 15px;
     width: 260px;
     height: 260px;
-    background-color: rgb(188, 185, 190);
- 
-    box-shadow: 40px 25px 30px rgb(62, 80, 182);
-}
+    background-color: rgb(202, 144, 241);
+    box-shadow: 30px 25px 15px  rgb(75, 0, 130);
 
-.TERCEARIO {
-    display: flex;
-    justify-content: center;
 }
-
 .contenedor4 {
-    border-radius: 8px;
-    border: 1.5px black solid;
+    border-radius: 10px;
+    border: 2.4px black solid;
     justify-content: center;
-    margin: 20px;
     display: flex;
+    margin: 15px;
     width: 260px;
     height: 260px;
-    background-color: rgb(188, 185, 190);
+    background-color: rgb(202, 144, 241);
+    box-shadow: 30px 25px 15px  rgb(75,0,130);
 
-    box-shadow: 40px 30px 25px rgb(199, 106, 83);
 }
-
 .contenedor5 {
-    border-radius: 8px;
-    border: 1.5px black solid;
+    border-radius: 10px;
+    border: 2.4px black solid;
     justify-content: center;
-    margin: 20px;
     display: flex;
+    margin: 15px;
     width: 260px;
     height: 260px;
-    background-color: rgb(188, 185, 190);
+    background-color: rgb(202, 144, 241);
+    box-shadow: 30px 25px 15px  rgb(75, 0, 130);
 
-    box-shadow: 40px 30px 25px rgb(199, 106, 83);
 }
-
 .contenedor6 {
-    border-radius: 8px;
-    border: 1.5px black solid;
+    border-radius: 10px;
+    border: 2.4px black solid;
     justify-content: center;
-    margin: 20px;
     display: flex;
+    margin: 15px;
     width: 260px;
     height: 260px;
-    background-color: rgb(188, 185, 190);
+    background-color: rgb(202, 144, 241);
+    box-shadow: 30px 25px 15px  rgb(75, 0, 130);
+ }
 
-    box-shadow: 40px 30px 25px rgb(199, 106, 83);
-}
+
+
 
