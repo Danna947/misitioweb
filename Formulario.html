@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomrulario</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+    <h1>Información Mascota</h1>
+    <form action="enviar-correo" method="post">
+        <fieldset>
+        <label>Fecha Ingreso</label>
+        <input class="dalt" type="date" name="Fecha" id="required" placeholder="Ingrese fecha (MM/DD/AA)"><br>
+        <label>Nombre Mascota</label>
+        <input class="dalt" type="text" name="Nombre Mascota" id="required" placeholder="Ingrese su(s) Nombre(s)"><br>
+        <label>Nombre</label>
+        <input class="dalt" type="text" name="Nombre del Dueño " id="required" placeholder="Ingrese su(s) Nombre(s)"><br>
+        <label>Apellido</label>
+        <input class="dalt" type="text" name="Apellidos del Dueño " id="required" placeholder="Ingrese su(s) Apellidos(s)"><br>
+        <label>Color</label>
+        <input class="dalt" type="text" name="Color Externo" id="required" placeholder="Color externo"><br>
+        <label>Sexo</label>
+        <select name="sexo" >
+            <option value="Hembra">Hembra</option><br>
+            <option value="Macho">Macho</option><br>
+
+        </select><br>
+        <br><label>Raza</label><br>
+        <input class="dalt" type="text" name="Raza" id="required" placeholder="Raza"><br>
+        <label>Especie</label>
+        <input class="dalt" type="text" name="Especie" id="required" placeholder="Especie"><br>
+        <label>Edad</label>
+        <input class="dalt" type="text" name="Edad" id="required" placeholder="Edad en (dias,meses o años)"><br>
+        <label>Peso</label>
+        <input class="dalt" type="text" name="Peso" id="required" placeholder="Peso"><br>
+        <label>Ha sido vacunado</label><br>
+        <br><input  type="radio" name="Vacuna" value="Si" checked="checked">Si<br>
+        <input type="radio" name="Vacuna" value="No" checked="checked">No<br>
+        <br><input class="button" type="submit" value="Enviar Registro">
+        
+        
+
+        
+
+
+    
+     
+
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>
