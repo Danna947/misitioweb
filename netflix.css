@@ -6,16 +6,18 @@ body{
     height: 100vh;
     background-color: black;
 }
-h1{
+a{
     font-family: 'Oswald', sans-serif;
-    font-size: 8em;
+    font-size: 10em;
     color: rgb(245, 17, 74);
+    letter-spacing: 0.1em;
+    text-decoration: none;
+  
     
 
 }
-h2{
-    font-family: 'Rubik', sans-serif;
-    color: rgb(245, 17, 74);
-    font-size: 4em;
-    text-align: left;
+
+img{
+    position: absolute;
+    z-index: -1;
 }

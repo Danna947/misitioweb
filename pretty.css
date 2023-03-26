@@ -2,30 +2,21 @@
     margin: 0;
     padding: 0;
 }
-
-
-
-
 body{
   
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-
-    
+    height: 100vh; 
 }
-.tittle{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-family: 'Satisfy', cursive;
-    font-size: 6em;
-    color: rgba(228, 48, 24, 0.918);
-
-    
-
+a{
+    font-family: 'Tangerine', cursive;
+    font-size: 5em;
+    word-spacing: -0.1em;
+    color: white;
+    text-decoration: none;
+   
+ 
 }
 img{
     height: 100%;
@@ -33,4 +24,5 @@ img{
     position: absolute;
     justify-content: center;
     align-items: center;
+    z-index: -1;
 }
