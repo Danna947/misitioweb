@@ -5,11 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fomrulario</title>
-    <link rel="stylesheet" href="Formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Formulario.css">
 </head>
 <body>
+    <div class="titulo">
     <h1>Información Mascota</h1>
+    </div>
+  
     <form action="enviar-correo" method="post">
+        
         <fieldset>
         <label>Fecha Ingreso</label>
         <input class="dalt" type="date" name="Fecha" id="required" placeholder="Ingrese fecha (MM/DD/AA)"><br>
@@ -39,14 +46,6 @@
         <br><input  type="radio" name="Vacuna" value="Si" checked="checked">Si<br>
         <input type="radio" name="Vacuna" value="No" checked="checked">No<br>
         <br><input class="button" type="submit" value="Enviar Registro">
-        
-        
-
-        
-
-
-    
-     
 
         </fieldset>
     </form>
