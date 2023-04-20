@@ -4,11 +4,11 @@
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(7, 1fr);
     grid-gap: 20px;
-    background-color: rgb(204, 204, 180);
+    background-color: whitesmoke;
 }
 .contenedor .item{
     background-color: beige;
-    border-bottom: 5px solid rgb(85, 19, 190);
+    border-bottom: 5px solid rgb(150, 122, 194);
     grid-column-start: 1;
     grid-column-end: 8;
     color: #0f0800;
@@ -20,14 +20,14 @@
     align-items: center;
 }
 .itemS{
-    background-color: rgb(25, 54, 141);
+    background-color: rgb(54, 85, 179);
     color: beige;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .itemN{
-    background-color: rgb(151, 39, 155);
+    background-color: rgb(199, 109, 202);
     color: beige;
 }
 .itemN p{
