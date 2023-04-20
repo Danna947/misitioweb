@@ -56,9 +56,9 @@ imgCuatro.addEventListener("click", function () {
 })
 
 let btnRestar = document.getElementById("btnRestar");
-let cantBox = document.getElementById ("cantBox");
+let cantBox = document.getElementById("cantBox");
 let numeroElementos = document.getElementById("numeroElementos");
-let btnCantidad = document.getElementById ("btnCantidad");
+let btnCantidad = document.getElementById("btnCantidad");
 let btnSumar = document.getElementById("btnSumar");
 // btnSumar.addEventListener("click" , function(){
 //    let numeroElementosTxt = document.getElementById("numeroElementos").innerHTML;
@@ -71,7 +71,7 @@ let btnSumar = document.getElementById("btnSumar");
 //    let nodeToAdd = document.createElement("p");
 
 //    let nodeText  = document.createTextNode("6");
-   
+
 //    numeroElementos.innerHTML="";
 //    let numeroElementosInt = parseInt(numeroElementosTxt);
 //    let totalElementosInt = numeroElementosInt + 1;
@@ -85,35 +85,56 @@ let btnSumar = document.getElementById("btnSumar");
 //     // añadimos uno al valor total
 //     // convertimos el resultado de las operaciones a texto
 //     // agreagamos el nuevo valor*/
- 
+
 //     let nodeToAdd = document.createElement("p");
- 
+
 //     let nodeText  = document.createTextNode("6");
-    
+
 //     numeroElementos.innerHTML="";
 //     let numeroElementosInt = parseInt(numeroElementosTxt);
 //     let totalElementosInt = numeroElementosInt - 1;
 //     let totalElementosTxt = totalElementosInt.toString();
 //     numeroElementos.innerHTML = totalElementosTxt;   
 //  }); 
+let valorUnitario = 199000;
+let valorUniatrioTxt = valorUnitario.toString();
+let valorTotal = document.getElementById("valorTotal");
+let valorTotalInt = 0;
+let precio = document.getElementById("precio");
+let total = 0;
 
-let click= 0;
+// // POO PROGRMACIÓN ORIENTADA A OBJETOS
+let click = 0;
+// let valorUnitarioPeso= new Intl.NumberFormat(). format(valorUnitario);
+// alert("$" + valorUnitarioPeso)
 
-btnSumar.addEventListener("click", function(){
-    if (click == 50){
-        click =50;
-    
-    }else{
+btnSumar.addEventListener("click", function () {
+
+    if (click == 10) {
+        click = 10;
+    } else {
         click = click + 1
         numeroElementos.innerHTML = click
+        total = total + 125000;
+        sep = new Intl.NumberFormat().format(total)
+        precio.innerHTML = "$" + sep
+
     }
 })
-btnRestar.addEventListener("click", function(){
-    if (click== 0){
-        click=  0;
-    
-    }else{
+btnRestar.addEventListener("click", function () {
+    if (click == 0) {
+        click = 0;
+
+    } else {
         click = click - 1
         numeroElementos.innerHTML = click
+        total = total - 125000;
+        sep = new Intl.NumberFormat().format(total)
+        precio.innerHTML = "$" + sep
     }
 });
+// ligth-box
+imgboxx.addEventListener(click, function(){
+    ligthBox.classList.remove("light-hidden");
+
+})
