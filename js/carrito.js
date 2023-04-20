@@ -11,7 +11,7 @@ let boxImgMini3 = document.getElementById("BoxImgMini3")
 let boxImgMini4 = document.getElementById("BoxImgMini4")
 
 imgUno.addEventListener("click", function () {
-    cont.setAttribute("src", "img/image-product-1-thumbnail.jpg")
+    cont.setAttribute("src", "IMG/image-product-1-thumbnail.jpg")
     boxImgMini1.classList.add("box-img-mini")
     boxImgMini2.classList.remove("box-img-mini")
     boxImgMini3.classList.remove("box-img-mini")
@@ -22,7 +22,7 @@ imgUno.addEventListener("click", function () {
     imgCuatro.classList.remove("img-mini-a")
 })
 imgDos.addEventListener("click", function () {
-    cont.setAttribute("src", "img/image-product-2-thumbnail.jpg")
+    cont.setAttribute("src", "IMG/image-product-2-thumbnail.jpg")
     boxImgMini1.classList.remove("box-img-mini")
     boxImgMini2.classList.add("box-img-mini")
     boxImgMini3.classList.remove("box-img-mini")
@@ -33,7 +33,7 @@ imgDos.addEventListener("click", function () {
     imgCuatro.classList.remove("img-mini-a")
 })
 imgTres.addEventListener("click", function () {
-    cont.setAttribute("src", "img/image-product-3-thumbnail.jpg")
+    cont.setAttribute("src", "IMG/image-product-3-thumbnail.jpg")
     boxImgMini1.classList.remove("box-img-mini")
     boxImgMini2.classList.remove("box-img-mini")
     boxImgMini3.classList.add("box-img-mini")
@@ -44,7 +44,7 @@ imgTres.addEventListener("click", function () {
     imgCuatro.classList.remove("img-mini-a")
 })
 imgCuatro.addEventListener("click", function () {
-    cont.setAttribute("src", "img/image-product-4-thumbnail.jpg")
+    cont.setAttribute("src", "IMG/image-product-4-thumbnail.jpg")
     boxImgMini1.classList.remove("box-img-mini")
     boxImgMini2.classList.remove("box-img-mini")
     boxImgMini3.classList.remove("box-img-mini")
