@@ -6,11 +6,11 @@
     grid-gap: 20px;
     background-color: whitesmoke;
 }
-.contenedor .item{
+.item{
+    margin-bottom: 13px;
     background-color: beige;
     border-bottom: 5px solid rgb(150, 122, 194);
-    grid-column-start: 1;
-    grid-column-end: 8;
+ 
     color: #0f0800;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 900;
@@ -36,4 +36,10 @@
 .contenedor div{
     font-weight: 900;
 }
-
+.ini{
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+body{
+padding: 0 20vh;
+}

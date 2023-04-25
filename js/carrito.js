@@ -1,4 +1,3 @@
-
 let cont = document.getElementById("imgboxx");
 let imgUno = document.getElementById("imgMini1");
 let imgDos = document.getElementById("imgMini2");
@@ -60,42 +59,7 @@ let cantBox = document.getElementById("cantBox");
 let numeroElementos = document.getElementById("numeroElementos");
 let btnCantidad = document.getElementById("btnCantidad");
 let btnSumar = document.getElementById("btnSumar");
-// btnSumar.addEventListener("click" , function(){
-//    let numeroElementosTxt = document.getElementById("numeroElementos").innerHTML;
-//    // leemos el numero de la interfaz
-//    // convertimos el numero leido en texto leido
-//    // añadimos uno al valor total
-//    // convertimos el resultado de las operaciones a texto
-//    // agreagamos el nuevo valor*/
 
-//    let nodeToAdd = document.createElement("p");
-
-//    let nodeText  = document.createTextNode("6");
-
-//    numeroElementos.innerHTML="";
-//    let numeroElementosInt = parseInt(numeroElementosTxt);
-//    let totalElementosInt = numeroElementosInt + 1;
-//    let totalElementosTxt = totalElementosInt.toString();
-//    numeroElementos.innerHTML = totalElementosTxt;   
-// }); 
-// btnRestar.addEventListener("click" , function(){
-//     let numeroElementosTxt = document.getElementById("numeroElementos").innerHTML;
-//     // leemos el numero de la interfaz
-//     // convertimos el numero leido en texto leido
-//     // añadimos uno al valor total
-//     // convertimos el resultado de las operaciones a texto
-//     // agreagamos el nuevo valor*/
-
-//     let nodeToAdd = document.createElement("p");
-
-//     let nodeText  = document.createTextNode("6");
-
-//     numeroElementos.innerHTML="";
-//     let numeroElementosInt = parseInt(numeroElementosTxt);
-//     let totalElementosInt = numeroElementosInt - 1;
-//     let totalElementosTxt = totalElementosInt.toString();
-//     numeroElementos.innerHTML = totalElementosTxt;   
-//  }); 
 let valorUnitario = 199000;
 let valorUniatrioTxt = valorUnitario.toString();
 let valorTotal = document.getElementById("valorTotal");
@@ -134,7 +98,8 @@ btnRestar.addEventListener("click", function () {
     }
 });
 // ligth-box
-imgboxx.addEventListener(click, function(){
-    ligthBox.classList.remove("light-hidden");
-
+let box=document.getElementById('ligthBox')
+cont.addEventListener('click', function () {
+    box.classList.remove('light-hidden')
 })
+
