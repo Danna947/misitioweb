@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(106, 196, 106);
+}
+blockquote{
+    font-size: 1.2em;
+    color:rgb(225, 102, 65);
+    text-align: justify;
+}
+
+
+.cont{
+    display: inline-block;
+    text-align: center;
+    margin: 6em 3em 3em 3em;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(173, 228, 166);
+}
+
+.cont-1 {
+    margin-top: 4px;
+    padding: 15px;
+    background-color: rgb(219, 51, 9);
+    border: 6px Dotted rgb(34, 28, 28);
+}
+
+.cont-2 {
+margin-top: 4px;
+padding: 25px;
+background-color: rgb(241, 126, 236);
+margin-bottom: 20px;
+border: 5px Dotted rgb(38, 195, 243);
+
+}
+
+.cont-3 {
+margin-top: 4px;
+padding: 25px rgb(63, 137, 233);
+background-color: rgb(157, 71, 228);
+margin-bottom: 20px;
+border: 5px Dashed rgb(33, 79, 230);
+
+}
+
+
+.cont-4 {
+margin-top: 4px;
+padding: 25px rgb(11, 219, 67);
+background-color: rgb(52, 160, 70);
+margin-bottom: 25px;
+border: 5px Double rgb(223, 42, 42);
+
+}
+
+.cont-5 {
+margin-top: 4px;
+padding: 25px rgb(209, 8, 8);
+background-color: rgb(31, 12, 202);
+margin-bottom: 20px;
+border: 5px  Groove black;
+
+}

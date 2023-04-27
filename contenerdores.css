@@ -1,0 +1,103 @@
+body {
+    background-color: darkgrey;
+}
+
+.first
+{
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ 
+    
+}
+.second{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.third{
+    color: black;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.text{
+    text-align: left;
+}
+.contenedor1 {
+    border-radius: 10px;
+    border: 2.4px black solid;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(202, 144, 241);
+    box-shadow: 30px 25px 15px  rgb(75, 0, 130);
+}
+.contenedor2 {
+    border-radius: 10px;
+    border: 2.4px black solid;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(202, 144, 241);
+    box-shadow: 30px 25px 15px  rgb(75, 0, 130);
+
+}
+.contenedor3 {
+    border-radius: 10px;
+    border: 2.4px black solid;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(202, 144, 241);
+    box-shadow: 30px 25px 15px  rgb(75, 0, 130);
+
+}
+.contenedor4 {
+    border-radius: 10px;
+    border: 2.4px black solid;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(202, 144, 241);
+    box-shadow: 30px 25px 15px  rgb(75,0,130);
+
+}
+.contenedor5 {
+    border-radius: 10px;
+    border: 2.4px black solid;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(202, 144, 241);
+    box-shadow: 30px 25px 15px  rgb(75, 0, 130);
+
+}
+.contenedor6 {
+    border-radius: 10px;
+    border: 2.4px black solid;
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(202, 144, 241);
+    box-shadow: 30px 25px 15px  rgb(75, 0, 130);
+ }
+
+
+
+

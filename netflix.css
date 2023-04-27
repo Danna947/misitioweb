@@ -1,0 +1,23 @@
+body{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 10em;
+    color: rgb(245, 17, 74);
+    letter-spacing: 0.1em;
+    text-decoration: none;
+  
+    
+
+}
+
+img{
+    position: absolute;
+    z-index: -1;
+}
