@@ -10,7 +10,7 @@ let boxImgMini3 = document.getElementById("BoxImgMini3")
 let boxImgMini4 = document.getElementById("BoxImgMini4")
 
 imgUno.addEventListener("click", function () {
-    cont.setAttribute("src", "IMG/image-product-1-thumbnail.jpg")
+    cont.setAttribute("src", "img/image-product-1.jpg")
     boxImgMini1.classList.add("box-img-mini")
     boxImgMini2.classList.remove("box-img-mini")
     boxImgMini3.classList.remove("box-img-mini")
@@ -21,7 +21,7 @@ imgUno.addEventListener("click", function () {
     imgCuatro.classList.remove("img-mini-a")
 })
 imgDos.addEventListener("click", function () {
-    cont.setAttribute("src", "IMG/image-product-2-thumbnail.jpg")
+    cont.setAttribute("src", "img/image-product-2.jpg")
     boxImgMini1.classList.remove("box-img-mini")
     boxImgMini2.classList.add("box-img-mini")
     boxImgMini3.classList.remove("box-img-mini")
@@ -32,7 +32,7 @@ imgDos.addEventListener("click", function () {
     imgCuatro.classList.remove("img-mini-a")
 })
 imgTres.addEventListener("click", function () {
-    cont.setAttribute("src", "IMG/image-product-3-thumbnail.jpg")
+    cont.setAttribute("src", "img/image-product-3.jpg")
     boxImgMini1.classList.remove("box-img-mini")
     boxImgMini2.classList.remove("box-img-mini")
     boxImgMini3.classList.add("box-img-mini")
@@ -43,7 +43,7 @@ imgTres.addEventListener("click", function () {
     imgCuatro.classList.remove("img-mini-a")
 })
 imgCuatro.addEventListener("click", function () {
-    cont.setAttribute("src", "IMG/image-product-4-thumbnail.jpg")
+    cont.setAttribute("src", "img/image-product-4.jpg")
     boxImgMini1.classList.remove("box-img-mini")
     boxImgMini2.classList.remove("box-img-mini")
     boxImgMini3.classList.remove("box-img-mini")
@@ -98,8 +98,58 @@ btnRestar.addEventListener("click", function () {
     }
 });
 // ligth-box
-let box=document.getElementById('ligthBox')
+let box=document.getElementById('lightHidden')
 cont.addEventListener('click', function () {
-    box.classList.remove('light-hidden')
-})
+    box.classList.remove('light-hidden');
+    box.classList.add('div-hidden');
+
+});
+
+
+let newimg = document.getElementById("imgbox");
+let img1 = document.getElementById("BoxNew1");
+let img2 = document.getElementById("BoxNew2");
+let img3 = document.getElementById("BoxNew3");
+let img4 = document.getElementById("BoxNew4");
+
+img1.addEventListener ("click", function () {
+    newimg.setAttribute("src", "img/image-product-1.jpg")
+    img1.classList.add("box-img-mini");
+    img2.classList.remove("box-img-mini");
+    img3.classList.remove("box-img-mini");
+    img4.classList.remove("box-img-mini");
+});
+img2.addEventListener ("click", function() {
+    newimg.setAttribute("src", "img/image-product-2.jpg")
+    img2.classList.add("box-img-mini");
+    img1.classList.remove("box-img-mini");
+    img3.classList.remove("box-img-mini");
+    img4.classList.remove("box-img-mini");
+});
+img3.addEventListener ("click", function() {
+    newimg.setAttribute("src", "img/image-product-3.jpg")
+    img3.classList.add("box-img-mini");
+    img1.classList.remove("box-img-mini");
+    img2.classList.remove("box-img-mini");
+    img4.classList.remove("box-img-mini");
+});
+img4.addEventListener ("click", function() {
+    newimg.setAttribute("src", "img/image-product-4.jpg")
+    img4.classList.add("box-img-mini");
+    img2.classList.remove("box-img-mini");
+    img3.classList.remove("box-img-mini");
+    img1.classList.remove("box-img-mini");
+});
+let tras = document.getElementById("tras");
+tras.addEventListener("click",function(){
+    box.classList.add("light-hidden")
+    box.classList.remove("div-hidden")
+
+});
+
+    
+
+
+
+
 

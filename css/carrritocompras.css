@@ -10,23 +10,29 @@
 .box-main{
     margin: 0px 76px;
     display:grid;
-    grid-template:"img-box-main empty" /
-                     435px   1fr;
+    grid-template:"img-box-main empty   cont"600px/
+                     435px       1fr    635px;         
 }
+.cont{
+    margin-top: 25px;
+}
+
 .img-box-main{
-    display: grid;    
+    display: grid;  
+    grid-area: img-box-main;  
     /* background-color: rgb(119, 119, 139); */
     width: 100%;
     /* height: 100vh;*/
-    grid-template:"img-box  img-box img-box   img-box img-box  img-box img-box "435px
-                  "empty-0  empty-0 empty-0   empty-0 empty-0  empty-0 empty-0 "30px
-                  "box-img-1 empty-1 box-img-2 empty-2  box-img-3 empty-3 box-img-4" 90px /
-                  90px 25px          90px 25px         90px 25px            90px;
+    grid-template:"img-box      img-box     img-box     img-box     img-box     img-box     img-box "435px
+                  "empty-0      empty-0     empty-0     empty-0     empty-0     empty-0     empty-0 "30px
+                  "box-img-1    empty-1     box-img-2   empty-2     box-img-3   empty-3     box-img-4" 90px /
+                  90px             25px       90px       25px         90px         25px          90px;
     
 }
 
 /* lithbox */
-.lightbox {
+.div-hidden {
+    top: 0;
     background-color: rgb(64, 64, 65,.8);
     width: 100%;
     height: 100vh;
@@ -34,6 +40,33 @@
     justify-content: center;
     display: flex;
     align-items: center;
+    grid-area: mostrarimg;
+}
+.hidden-ampliado{
+    grid-template:"atras    mostrarimg"/
+                    40px           435px;
+}
+.img-principal{
+    background-color: aqua;
+    grid-area: img-new;
+    cursor: pointer;
+}
+.box-new-1{
+    grid-area: box-new-1;
+    cursor: pointer;
+    
+}
+.box-new-2{
+    grid-area: box-new-2;
+    cursor: pointer;
+}
+.box-new-3{
+    grid-area: box-new-3;
+    cursor: pointer;
+}
+.box-new-4{
+    grid-area: box-new-4;
+    cursor: pointer;
 }
 .light-hidden{
     display: none;
@@ -46,37 +79,26 @@
     display: flex;
     justify-content: center;
 }
-.btn-x{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.org {
-    justify-content: left;
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
 .btn-atras {
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    background-color: aliceblue;
-    display: flex;
+    border-radius: 50px;
     justify-content: center;
     align-items: center;
-    font-weight: 900;
+    display: flex;
+    height: 45px;
+    width: 45px;
+    right: 55px;
+    font-size: 30px;
+    background-color: aliceblue;
+    grid-area: atras;
     color: black;
     position: relative;
-    left: 20px;
+    top:240px;
+
 }
 .img{
     width: 500px;
 
 }
-
 .org2 {
     justify-content: right;
     display: flex;
@@ -85,24 +107,41 @@
 }
 
 .btn-adelante {
-    position: relative;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    background-color: aliceblue;
-    display: flex;
+    border-radius: 50px;
     justify-content: center;
     align-items: center;
-    font-weight: 900;
+    display: flex;
+    height: 45px;
+    width: 45px;
+    left: 445px;
+    font-size: 30px;
+    background-color: aliceblue;
+    grid-area: atras;
     color: black;
-    right: 20px;
+    position: relative;
+    top:287px;  
 }
-
-
+.btn-x{
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 35px;
+    width: 35px;
+    left: 435px;
+    font-size: 30px;
+    background-color: aliceblue;
+    grid-area: atras;
+    color: black;
+    position: relative;
+    top:95px;
+    cursor: pointer;
+}
 .img-box{
     grid-area: img-box;
     width: 100%;
     cursor: pointer;
+    margin-top: 23px;
 }
 .img-mini{
     width: 100%;
@@ -135,7 +174,6 @@
 img{
     border-radius: 12px;
 }   
-
 .icon-op{
     width: 50px;
     height: 50px;
@@ -150,7 +188,6 @@ img{
     color: rgb(48, 48, 48);
     font-size: 1.2em;
 }
-
 .btn-sumar, .btn-restar{
     color:  rgb(255, 125, 26);
     border-top-left-radius: 10px;
@@ -179,7 +216,6 @@ img{
     border-bottom: 1px solid orangered;
     list-style: none;
 }
-
 .Menu1{
     display: inline-flex;
     align-items: center;
@@ -187,15 +223,14 @@ img{
 }
 .cont{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 90px 0px 90px 90px;
+
+    grid-area: cont;
  
 }
-
 .sneake{
     color: orange;
     font-weight: bold;
 }
-
 .sub{
     font-size: 3em;
     margin-bottom: 15px;
@@ -214,52 +249,11 @@ img{
     font-size: 2em;
     font-weight: bold;
 }
-
-.dto {
-    margin-top: 7px;
-    border-radius: 5px;
-    background-color: rgb(255, 226, 205);
-    color: rgb(248, 103, 7);
-    font-weight: bold;
-    height: 25px;
-    padding: 5px;
-}
-
-
-.counter {
-    display: inline-flex;
-}
-.less {
-    padding-inline: 25px;
-    grid-area: less;
-}
 .btn {
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(255, 81, 0);
-}
-
-
-.add {
-    border-radius: 8px;
-    border: none;
-    height: 58px;
-    margin-left: 30px;
-    width: 270px;
-    background-color: rgb(255, 123, 0);
-}
-
-.txt-add {
-    font-weight: bold;
-    font-size: 1.2em;
-    color: whitesmoke;
-   
-}
-.car{
-margin-right: 35px;
-  height: 25px;
-  width: 40px;
 }
 .before {
     color: gray;
@@ -271,3 +265,8 @@ margin-right: 35px;
     font-size: 1.5em;
 
 }
+img{
+    border-radius: 12px;
+}  
+
+

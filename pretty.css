@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+a{
+    font-family: 'Tangerine', cursive;
+    font-size: 5em;
+    word-spacing: -0.1em;
+    color: white;
+    text-decoration: none;
+   
+ 
+}
+img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
