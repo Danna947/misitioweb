@@ -2,21 +2,15 @@
     margin: 0;
     padding: 0;
 }
-/* .container {
-    background-color: rosybrown;
-    width: 200px;
-    height: 200px;
-} */
 .box-main{
     margin: 0px 76px;
     display:grid;
     grid-template:"img-box-main empty   cont"600px/
-                     435px       1fr    635px;         
+                       435px       1fr     635px;         
 }
 .cont{
     margin-top: 25px;
 }
-
 .img-box-main{
     display: grid;  
     grid-area: img-box-main;  
@@ -26,10 +20,8 @@
     grid-template:"img-box      img-box     img-box     img-box     img-box     img-box     img-box "435px
                   "empty-0      empty-0     empty-0     empty-0     empty-0     empty-0     empty-0 "30px
                   "box-img-1    empty-1     box-img-2   empty-2     box-img-3   empty-3     box-img-4" 90px /
-                  90px             25px       90px       25px         90px         25px          90px;
-    
+                  90px             25px       90px       25px         90px         25px          90px;  
 }
-
 /* lithbox */
 .div-hidden {
     top: 0;
@@ -71,7 +63,6 @@
 .light-hidden{
     display: none;
 }
-
 .main-ligthbox {
     width: 650px;
     height: 600px;
@@ -86,18 +77,16 @@
     display: flex;
     height: 45px;
     width: 45px;
-    right: 55px;
+    right: 25px;
     font-size: 30px;
     background-color: aliceblue;
     grid-area: atras;
     color: black;
     position: relative;
-    top:240px;
-
+    top:297px;
 }
 .img{
     width: 500px;
-
 }
 .org2 {
     justify-content: right;
@@ -105,7 +94,6 @@
     align-items: center;
     position: relative;
 }
-
 .btn-adelante {
     border-radius: 50px;
     justify-content: center;
@@ -113,13 +101,13 @@
     display: flex;
     height: 45px;
     width: 45px;
-    left: 445px;
+    left: 415px;
     font-size: 30px;
     background-color: aliceblue;
     grid-area: atras;
     color: black;
     position: relative;
-    top:287px;  
+    top:250px;  
 }
 .btn-x{
     border-radius: 50px;
@@ -129,12 +117,12 @@
     height: 35px;
     width: 35px;
     left: 435px;
-    font-size: 30px;
+    font-size: 25px;
     background-color: aliceblue;
     grid-area: atras;
-    color: black;
+    color: orangered;
     position: relative;
-    top:95px;
+    top:110px;
     cursor: pointer;
 }
 .img-box{
@@ -146,7 +134,6 @@
 .img-mini{
     width: 100%;
     cursor: pointer;
-
 }
 .box-img-1{
     grid-area: box-img-1;
@@ -223,9 +210,9 @@ img{
 }
 .cont{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    float: right;
+    margin-left: 80px;
     grid-area: cont;
- 
 }
 .sneake{
     color: orange;
@@ -235,16 +222,13 @@ img{
     font-size: 3em;
     margin-bottom: 15px;
 }
-
 .bottom {
     margin-bottom: 15px;
 }
-
 .number-flex {
     display: inline-flex;
     gap: 15px;
 }
-
 .number {
     font-size: 2em;
     font-weight: bold;
@@ -263,10 +247,7 @@ img{
 .precio{
     font-weight: bold;
     font-size: 1.5em;
-
 }
 img{
     border-radius: 12px;
 }  
-
-

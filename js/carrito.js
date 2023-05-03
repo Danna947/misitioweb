@@ -4,13 +4,13 @@ let imgDos = document.getElementById("imgMini2");
 let imgTres = document.getElementById("imgMini3");
 let imgCuatro = document.getElementById("imgMini4");
 
-let boxImgMini1 = document.getElementById("BoxImgMini1")
-let boxImgMini2 = document.getElementById("BoxImgMini2")
-let boxImgMini3 = document.getElementById("BoxImgMini3")
-let boxImgMini4 = document.getElementById("BoxImgMini4")
+let boxImgMini1 = document.getElementById("BoximgMini1")
+let boxImgMini2 = document.getElementById("BoximgMini2")
+let boxImgMini3 = document.getElementById("BoximgMini3")
+let boxImgMini4 = document.getElementById("BoximgMini4")
 
 imgUno.addEventListener("click", function () {
-    cont.setAttribute("src", "img/image-product-1.jpg")
+    cont.setAttribute("src", "imgdan/image-product-1.jpg")
     boxImgMini1.classList.add("box-img-mini")
     boxImgMini2.classList.remove("box-img-mini")
     boxImgMini3.classList.remove("box-img-mini")
@@ -21,7 +21,7 @@ imgUno.addEventListener("click", function () {
     imgCuatro.classList.remove("img-mini-a")
 })
 imgDos.addEventListener("click", function () {
-    cont.setAttribute("src", "img/image-product-2.jpg")
+    cont.setAttribute("src","imgdan/image-product-2.jpg")
     boxImgMini1.classList.remove("box-img-mini")
     boxImgMini2.classList.add("box-img-mini")
     boxImgMini3.classList.remove("box-img-mini")
@@ -32,7 +32,7 @@ imgDos.addEventListener("click", function () {
     imgCuatro.classList.remove("img-mini-a")
 })
 imgTres.addEventListener("click", function () {
-    cont.setAttribute("src", "img/image-product-3.jpg")
+    cont.setAttribute("src", "imgdan/image-product-3.jpg")
     boxImgMini1.classList.remove("box-img-mini")
     boxImgMini2.classList.remove("box-img-mini")
     boxImgMini3.classList.add("box-img-mini")
@@ -43,7 +43,7 @@ imgTres.addEventListener("click", function () {
     imgCuatro.classList.remove("img-mini-a")
 })
 imgCuatro.addEventListener("click", function () {
-    cont.setAttribute("src", "img/image-product-4.jpg")
+    cont.setAttribute("src", "imgdan/image-product-4.jpg")
     boxImgMini1.classList.remove("box-img-mini")
     boxImgMini2.classList.remove("box-img-mini")
     boxImgMini3.classList.remove("box-img-mini")
@@ -105,36 +105,45 @@ cont.addEventListener('click', function () {
 
 });
 
-
 let newimg = document.getElementById("imgbox");
+let new1 = document.getElementById("imgNewMini1");
+let new2 = document.getElementById("imgNewMini2");
+let new3 = document.getElementById("imgNewMini3");
+let new4 = document.getElementById("imgNewMini4");
+
 let img1 = document.getElementById("BoxNew1");
 let img2 = document.getElementById("BoxNew2");
 let img3 = document.getElementById("BoxNew3");
 let img4 = document.getElementById("BoxNew4");
 
 img1.addEventListener ("click", function () {
-    newimg.setAttribute("src", "img/image-product-1.jpg")
+    newimg.setAttribute("src", "imgdan/image-product-1.jpg")
     img1.classList.add("box-img-mini");
     img2.classList.remove("box-img-mini");
     img3.classList.remove("box-img-mini");
     img4.classList.remove("box-img-mini");
+    new2.classList.remove("img-mini-a")
+    new1.classList.add("img-mini-a")
+    new3.classList.remove("img-mini-a")
+    new4.classList.remove("img-mini-a")
+
 });
 img2.addEventListener ("click", function() {
-    newimg.setAttribute("src", "img/image-product-2.jpg")
+    newimg.setAttribute("src", "imgdan/image-product-2.jpg")
     img2.classList.add("box-img-mini");
     img1.classList.remove("box-img-mini");
     img3.classList.remove("box-img-mini");
     img4.classList.remove("box-img-mini");
 });
 img3.addEventListener ("click", function() {
-    newimg.setAttribute("src", "img/image-product-3.jpg")
+    newimg.setAttribute("src", "imgdan/image-product-3.jpg")
     img3.classList.add("box-img-mini");
     img1.classList.remove("box-img-mini");
     img2.classList.remove("box-img-mini");
     img4.classList.remove("box-img-mini");
 });
 img4.addEventListener ("click", function() {
-    newimg.setAttribute("src", "img/image-product-4.jpg")
+    newimg.setAttribute("src", "imgdan/image-product-4.jpg")
     img4.classList.add("box-img-mini");
     img2.classList.remove("box-img-mini");
     img3.classList.remove("box-img-mini");
@@ -147,7 +156,7 @@ tras.addEventListener("click",function(){
 
 });
 
-    
+let btnlcambiar = document.getElementById("btnRestar");    
 
 
 
