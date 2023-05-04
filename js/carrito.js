@@ -156,7 +156,109 @@ tras.addEventListener("click",function(){
 
 });
 
-let btnlcambiar = document.getElementById("btnRestar");    
+let btnadelante = document.getElementById("btnrigth")
+let btnatras = document.getElementById("btnleft")
+let var1 = 0;
+let var2 = 0;
+btnleft.addEventListener("click", function(){
+    var1 = var1 +1
+    if (var1==1) {
+    newimg.setAttribute("src", "imgdan/image-product-1.jpg")
+        img1.classList.add("box-img-mini");
+        img2.classList.remove("box-img-mini");
+        img3.classList.remove("box-img-mini");
+        img4.classList.remove("box-img-mini");
+        new2.classList.remove("img-mini-a")
+        new1.classList.add("img-mini-a")
+        new3.classList.remove("img-mini-a")
+        new4.classList.remove("img-mini-a")
+    if (var1==2){
+    newimg.setAttribute("src", "imgdan/image-product-2.jpg")
+        img2.classList.add("box-img-mini");
+        img1.classList.remove("box-img-mini");
+        img3.classList.remove("box-img-mini");
+        img4.classList.remove("box-img-mini");
+        new2.classList.remove("img-mini-a")
+        new1.classList.add("img-mini-a")
+        new3.classList.remove("img-mini-a")
+        new4.classList.remove("img-mini-a")
+
+    }
+    if(var1==3){
+        newimg.setAttribute("src", "imgdan/image-product-3.jpg")
+            img3.classList.add("box-img-mini");
+            img1.classList.remove("box-img-mini");
+            img2.classList.remove("box-img-mini");
+            img4.classList.remove("box-img-mini");
+            new2.classList.remove("img-mini-a")
+            new1.classList.add("img-mini-a")
+            new3.classList.remove("img-mini-a")
+            new4.classList.remove("img-mini-a")
+
+    }
+    if (var1==4){
+        newimg.setAttribute("src", "imgdan/image-product-4.jpg")
+            img4.classList.add("box-img-mini");
+            img2.classList.remove("box-img-mini");
+            img3.classList.remove("box-img-mini");
+            img1.classList.remove("box-img-mini");
+            new2.classList.remove("img-mini-a")
+            new1.classList.add("img-mini-a")
+            new3.classList.remove("img-mini-a")
+            new4.classList.remove("img-mini-a")
+    }
+        
+    }
+});
+btnrigth.addEventListener("click", function(){
+    var2 = var2 + 1
+    if (var2==1) {          
+        newimg.setAttribute("src", "imgdan/image-product-4.jpg")
+        img4.classList.add("box-img-mini");
+        img2.classList.remove("box-img-mini");
+        img3.classList.remove("box-img-mini");
+        img1.classList.remove("box-img-mini");
+        new2.classList.remove("img-mini-a");
+        new4.classList.add("img-mini-a");
+        new3.classList.remove("img-mini-a")
+        new1.classList.remove("img-mini-a")
+    }
+    if (var2==2) {
+        newimg.setAttribute("src", "imgdan/image-product-3.jpg")
+        img3.classList.add("box-img-mini");
+        img1.classList.remove("box-img-mini");
+        img2.classList.remove("box-img-mini");
+        img4.classList.remove("box-img-mini");
+        new2.classList.remove("img-mini-a");
+        new3.classList.add("img-mini-a");
+        new1.classList.remove("img-mini-a");
+        new4.classList.remove("img-mini-a"); 
+    }
+    if (var2==3) {
+        newimg.setAttribute("src", "imgdan/image-product-2.jpg")
+        img2.classList.add("box-img-mini");
+        img1.classList.remove("box-img-mini");
+        img3.classList.remove("box-img-mini");
+        img4.classList.remove("box-img-mini");
+        new1.classList.remove("img-mini-a")
+        new2.classList.add("img-mini-a")
+        new3.classList.remove("img-mini-a")
+        new4.classList.remove("img-mini-a")
+    }
+    if (var2==4) {
+        newimg.setAttribute("src", "imgdan/image-product-1.jpg")
+        img1.classList.add("box-img-mini");
+        img2.classList.remove("box-img-mini");
+        img3.classList.remove("box-img-mini");
+        img4.classList.remove("box-img-mini");
+        new2.classList.remove("img-mini-a")
+        new1.classList.add("img-mini-a")
+        new3.classList.remove("img-mini-a")
+        new4.classList.remove("img-mini-a")
+        
+    }
+});
+
 
 
 
