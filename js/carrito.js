@@ -219,19 +219,19 @@ btnrigth.addEventListener("click", function(){
         img3.classList.remove("box-img-mini");
         img1.classList.remove("box-img-mini");
         new2.classList.remove("img-mini-a");
-        new4.classList.add("img-mini-a");
+        new1.classList.add("img-mini-a");
         new3.classList.remove("img-mini-a")
-        new1.classList.remove("img-mini-a")
+        new4.classList.remove("img-mini-a")
     }
     if (var2==2) {
         newimg.setAttribute("src", "imgdan/image-product-3.jpg")
-        img3.classList.add("box-img-mini");
+        img4.classList.add("box-img-mini");
         img1.classList.remove("box-img-mini");
         img2.classList.remove("box-img-mini");
         img4.classList.remove("box-img-mini");
-        new2.classList.remove("img-mini-a");
-        new3.classList.add("img-mini-a");
         new1.classList.remove("img-mini-a");
+        new2.classList.add("img-mini-a");
+        new3.classList.remove("img-mini-a");
         new4.classList.remove("img-mini-a"); 
     }
     if (var2==3) {
