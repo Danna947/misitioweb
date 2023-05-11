@@ -38,7 +38,7 @@
 
 }
 .leopard{
-    grid-area: Hipo;
+    grid-area: leopard;
     position: relative;
     top: -90px;
     left: 0;
@@ -47,7 +47,7 @@
     cursor: pointer;
 }
 .dolphi{
-     grid-area: Hipo;
+     grid-area: dolphi;
     position: relative;
     top: -90px;
     left:  0;
