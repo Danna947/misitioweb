@@ -5,11 +5,11 @@
    
 }
 
-.main-content {
+/* .main-content {
     display: grid;
     grid-template: "empty-left   main-nav   empty-rigth"
-                   "empty-left   Hipo       empty-rigth" / 1fr 1280px 1fr;
-}
+                   "empty-left   img-hipo      empty-rigth" / 1fr 1280px 1fr;
+} */
 
 .left-box {
     background-color: rgb(223, 220, 225);
@@ -22,46 +22,15 @@
     grid-area: empty-rigth;
     height: 100vh;
 }
-
-.Hipo {
-    grid-area: Hipo;
-    position: relative;
-    top: -90px;
-    left: 0;
-    z-index: 1;
-    transition: left all 1s;
-    cursor: pointer;
-}   
-
-.main2{
-    display:inline-flex ;
-
+.main-marco {
+    position:relative;
+    
 }
-.leopard{
-    grid-area: leopard;
-    position: relative;
-    top: -90px;
-    left: 0;
-    transition: left all 1s;
-    z-index: 1;
-    cursor: pointer;
-}
-.dolphi{
-     grid-area: dolphi;
-    position: relative;
-    top: -90px;
-    left:  0;
-    z-index: 1;
-    cursor: pointer;    
-
-}
-
 .main-nav {
     width: 100%;
     height: 60px;
-    background-color: rgb(208, 25, 32);
+    background-color: rgb(4, 27, 128);
 }
-
 .main-ul {
     list-style: none;
     font-size: 1.3em;
@@ -83,30 +52,92 @@
     padding: 15px 25px 0 25px;
 }
 .btn-left {
-    position: relative;
-    width: 90px;
-    height: 50px;
-    top: 395px;
-    left: 20px;
-    cursor: pointer;
-    z-index: 5;
+    position: fixed;
+    width: 80px;
+    top: 50vh;
+    left: 40px;
+    z-index: 20;
     font-size: 2em;
+    cursor: pointer;
 }
 .btn-rigth {
-    position: relative;
-    width: 90px;
-    top: 37.5%;
-    top: 37.5%;
-    left: 98%;
-    cursor: pointer;
-    z-index: 5;
+    position: fixed;
+    width: 80px;
+    top: 50vh;
+    right: 40px;
+    z-index: 20;
     font-size: 2em;
+    cursor: pointer;
 }
-.main-marco {
-    position:relative;
-    
+.btn-left:hover{
+    cursor: pointer;
 }
-.Hipo ::after {
-    position: relative;
-    left: -50%;
+.img-sea{
+    width: 100%;
+    top: -90px;
+    left: 0;
+    z-index: 10;
+    transition: left 2s;
+}  
+.img-sea-hideen{
+    width: 100%;
+    position: fixed;
+    left: -100%;
+    transition:  left 6s;
+    z-index: 1;
+    cursor: pointer;
+}
+.img-sea-hideen-rigth{
+    width: 100%;
+    position: fixed;
+    left: 100%;
+    transition:  left 6s;
+    z-index: 1;
+    cursor: pointer;
+}
+.img-leopard{
+    width: 100%;
+    grid-area: img-leopard;
+    position: fixed;
+    z-index: 10;
+    left: 100%;
+    transition: left 2s;  
+}
+
+.img-leopard-hideen{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    left: -100%;
+    transition: left 6s;
+}
+.img-leopard-hideen-right{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    left: 100%;
+    transition: left 6s;
+}
+.img-nature{
+    width: 100%;
+    top: -90px;
+    left: 0;
+    z-index: 10;
+    transition: left 2s;
+}
+.img-nature-hideen{
+    width: 100%;
+    position: fixed;
+    left: -100%;
+    transition:  left 2s;
+    z-index: 1;
+    cursor: pointer;
+}
+.img-nature-hideen-rigth{
+    width: 100%;
+    position: fixed;
+    left: -100%;
+    transition:  left 2s;
+    z-index: 1;
+    cursor: pointer;
 }
