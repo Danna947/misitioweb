@@ -4,6 +4,12 @@
     overflow: hidden;
    
 }
+.main-nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    z-index: 30;
+}
 
 /* .main-content {
     display: grid;
@@ -11,30 +17,22 @@
                    "empty-left   img-hipo      empty-rigth" / 1fr 1280px 1fr;
 } */
 
-.left-box {
+.empty-left{
     background-color: rgb(223, 220, 225);
     grid-area: empty-left;
-    height: 100vh;
 }
 
 .empty-rigth {
     background-color: rgb(223, 220, 225);
     grid-area: empty-rigth;
-    height: 100vh;
 }
 .main-marco {
     position:relative;
-    
-}
-.main-nav {
-    width: 100%;
-    height: 60px;
-    background-color: rgb(4, 27, 128);
 }
 .main-ul {
     list-style: none;
     font-size: 1.3em;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-right: 40px;
     text-align: right;
 }
@@ -43,10 +41,13 @@
 }
 .style-li {
     display: inline-block;
+    margin-right: 80px;
     color: white;
+    font-family:'Arimo', sans-serif;
+    cursor: pointer;
 }
+
 .style-item {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-decoration: none;
     padding: 15px 25px 0 25px;
@@ -74,7 +75,7 @@
 }
 .img-sea{
     width: 100%;
-    top: -90px;
+    position: fixed;
     left: 0;
     z-index: 10;
     transition: left 2s;
@@ -83,61 +84,50 @@
     width: 100%;
     position: fixed;
     left: -100%;
-    transition:  left 6s;
-    z-index: 1;
-    cursor: pointer;
+    transition:  left 2s;
+    z-index: 10;
 }
-.img-sea-hideen-rigth{
+/* .img-sea-hideen-rigth{
     width: 100%;
-    position: fixed;
+    position: relative;
     left: 100%;
-    transition:  left 6s;
-    z-index: 1;
-    cursor: pointer;
-}
+    transition:  left 2s;
+    z-index: 10;
+} */
 .img-leopard{
     width: 100%;
-    grid-area: img-leopard;
+    left: 0;
     position: fixed;
     z-index: 10;
-    left: 100%;
-    transition: left 2s;  
+    transition: left 2s;
+  
 }
-
-.img-leopard-hideen{
+.img-leopard-hideen-left{
     width: 100%;
     position: fixed;
     z-index: 10;
     left: -100%;
-    transition: left 6s;
+    transition: left 2s;
 }
 .img-leopard-hideen-right{
     width: 100%;
     position: fixed;
-    z-index: 10;
     left: 100%;
-    transition: left 6s;
+    transition:  left 2s;
+    z-index: 10;
 }
 .img-nature{
     width: 100%;
-    top: -90px;
     left: 0;
     z-index: 10;
     transition: left 2s;
+    position: fixed;
 }
-.img-nature-hideen{
+.img-nature-hideen-right{
     width: 100%;
     position: fixed;
-    left: -100%;
+    left: 100%;
     transition:  left 2s;
-    z-index: 1;
-    cursor: pointer;
+    z-index: 10;
 }
-.img-nature-hideen-rigth{
-    width: 100%;
-    position: fixed;
-    left: -100%;
-    transition:  left 2s;
-    z-index: 1;
-    cursor: pointer;
-}
+
