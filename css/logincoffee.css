@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 body{
     height: 100%;
     height: 100vh;
     font-family: 'Arimo', sans-serif;
     background-image: url(../imgdan/hd-wallpaper-g14babd19c_1280.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 .form-login{
