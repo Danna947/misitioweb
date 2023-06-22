@@ -8,15 +8,15 @@
 alert("Bienvenidos al mundo de Javascript :)");
 
 /*Ejercicio N.2 use strict no permite utilizar variables que no halla sido declarada */
-let nombreAprendiz = "Monica Yulitssa";
+let nombreAprendiz = "Danna";
 alert(nombreAprendiz);
 
 /*Ejercicio N.3 */
 /*crea 2 variables de tipo string (nombre y apellido) y las mostramos en consola*/
-let nombresAprendiz = "Yina Marcela";
-let apellidoAprendiz = "Rójas Barrera";
+let nombresAprendiz = "Danna";
+let apellidoAprendiz = "López";
 
-console.log("ejercico N.3");
+console.log("Ejercico N.3");
 console.log(nombresAprendiz + " " + apellidoAprendiz);
 
 /*Ejercicio N.4 */

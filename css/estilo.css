@@ -14,20 +14,20 @@
     
 }
 body{
-    background-image: url(../imgdan/sea-gdbfdffe4f_1280.jpg
-    );
     background-size: cover;
+   
+   
 }
 *{
     margin:0;
     padding:0;
+    font-family: 'Asul', sans-serif;
  
 }
 nav ul{
     margin-top: 0;
     list-style: none;
-    background:whitesmoke;
-    position: absolute;
+    background-image: radial-gradient(circle at 49.35% 42.54%, #9d18d0 0, #7a10d2 25%, #4610d4 50%, #0017d6 75%, #001fd7 100%);    position: absolute;
     width: 100%;
 }
 nav > ul > li{
@@ -39,7 +39,7 @@ nav li{
     position: relative;
     text-align: center;
     color: beige;
-    font-size: 25px
+    font-size: 20px
 }
 nav li li {
     max-height: 0;
@@ -59,27 +59,21 @@ nav ul ul ul{
     transition: 1s;
 }
 a{
-    color:rgb(74, 90, 236);
+    color:whitesmoke;
     text-decoration: none;
     border-radius: 5px;
     border-color: rgb(99, 66, 66);
 }
-img{
-    width: 100%;
+.letter{
+    color: black;
+    position: fixed;
 }
 nav ul ul{
     text-align: center; 
 }
-.logo{
-    height: 100%;
-    display:inline-flex;
-    align-items: center;
-    width:50px;
-    margin-top: 25px;
-    margin-left: 25px;
-}
+
 a:hover{
     border-style:solid;
     border-width: 0;
-    color: rgba(29, 143, 67, 0.815)
+    color: black;
 }
