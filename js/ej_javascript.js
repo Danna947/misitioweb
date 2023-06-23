@@ -35,3 +35,35 @@ console.log(num3Str + num4Str);
 
 console.log("Entero + String (5 +\"4\")");
 console.log(num1Int + num3Str);
+
+/* Operadores aritmeticos*/
+console.log("Operadores Aritmeticos");
+let numArit1 = 9;
+let numArit2 = 6;
+
+console.log("Suma: ");
+console.log("numArit1 (9) + numArit2 (6): " + (numArit1 + numArit2));
+
+console.log("Resta: ");
+console.log("numArit2 (6) - numArit1 (9): " + (numArit2 - numArit1));
+
+console.log("Multiplicacion: ");
+console.log("numArit2 (6) * numArit1 (9): " + (numArit2 * numArit1));
+
+console.log("Divicion: ");
+let resuldivi = numArit1 / numArit2;
+console.log("numArit1 (9) / numArit2 (6): " + (numArit1 / numArit2));
+
+console.log("Redondear numeros: ");
+/*Para sacar el reciduo */
+console.log("Residuo: " + (numArit1 % numArit2));
+
+/*Redondea el resultado de la divion para que no me de tantos numeros despues del punto*/
+console.log("Redondear promedio....");
+console.log(Math.round(resuldivi));
+/*Redondea el resultado de la vicion asia abajo */
+console.log("Redondear hacia bajo....");
+console.log(Math.floor(resuldivi));
+/*Redondea el resultado de la vicion asia arriba*/
+console.log("Redondear hacia arriba....");
+console.log(Math.ceil(resuldivi));
