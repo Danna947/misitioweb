@@ -54,7 +54,7 @@ console.log("Divicion: ");
 let resuldivi = numArit1 / numArit2;
 console.log("numArit1 (9) / numArit2 (6): " + (numArit1 / numArit2));
 
-console.log("Redondear numeros: ");
+console.log("Redondear numeros");
 /*Para sacar el reciduo */
 console.log("Residuo: " + (numArit1 % numArit2));
 
