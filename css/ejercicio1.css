@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Asul', sans-serif;;
+}
+body{
+    background-color: royalblue;
+}
+.formulario{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 45px;
+   height: 250px;
+   background: transparent;
+   background-color: transparent;
+   backdrop-filter: blur(20px);
+}
+.forml{
+    border-radius: 6px;
+    border: 2px solid black;
+    padding: 12px;
+}
+label{
+    margin-right: 12px;
+}
+.button{
+    margin-top: 34px;
+    background-color: violet;
+    font-weight: 600;
+    width: 70px;
+    height: 25px;
+}
+h1{
+    margin-bottom: 40px;
+    text-align: center;
+}

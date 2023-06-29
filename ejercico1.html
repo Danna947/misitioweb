@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <link rel="stylesheet" href="css/ejercicio1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asul&family=Montserrat:wght@100&family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="formulario">
+        <form class="forml" id="form">
+            <h1>Formulario Validación Horas</h1>
+        <label>Dia</label>
+        <input id="dia" type="number" min="1"  max="31" required><br>
+        <br><label for="mes">Mes</label>
+        <input  id="mes" type="number"required min="1" max="12"><br>
+        <br><label for="year">Año</label>
+        <input id="years" type="number" min="1890" max="2023" required><br>
+        <input class="button" type="submit" name="Establecer">
+        </form>
+    </div>
+
+    <script src="js/ejerciciofecha.js"></script>
+</body>
+</html>
