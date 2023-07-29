@@ -61,4 +61,38 @@ h3{
     margin-bottom: 12px;
 
 }
+@media screen and (max-width: 768px) {
+    .temr-condition {
+        padding: 20px; /* Reducimos el padding para pantallas más pequeñas */
+       
+        
+    }
+
+    .icon {
+        font-size: 60px; /* Reducimos el tamaño del icono para pantallas más pequeñas */
+    }
+
+    .title-term {
+        font-size: 1.2em; /* Reducimos el tamaño del título para pantallas más pequeñas */
+        margin-top: 30px; /* Ajustamos el margen superior */
+        margin-bottom: 20px; /* Ajustamos el margen inferior */
+    }
+
+    .explic {
+        font-size: 1em; /* Reducimos el tamaño del texto explicativo para pantallas más pequeñas */
+    }
+
+    .button {
+        width: 30%; /* Ajustamos el ancho del botón para pantallas más pequeñas */
+        margin: 20px auto; /* Centramos el botón horizontalmente */
+        padding: 8px; /* Ajustamos el padding del botón */
+        font-size: 1em; /* Reducimos el tamaño de fuente del botón para pantallas más pequeñas */
+       
+    }
+
+    h3 {
+        font-size: 1.1em; /* Reducimos el tamaño de fuente del subtítulo para pantallas más pequeñas */
+        margin-bottom: 10px; /* Ajustamos el margen inferior del subtítulo */
+    }
+}
 

@@ -1,18 +1,26 @@
-@media screen and (max-width:700px) {
-.fondo{
-    position: absolute;
-    z-index: 1;
-
-   } 
-
-
-}
-@media screen and (max-width:700px){
-    .fondo-1{
-        display:none ;
+@media screen and (max-width: 720px) {
+    nav ul {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        background-image: radial-gradient(circle at 49.35% 42.54%, #9d18d0 0, #7a10d2 25%, #4610d4 50%, #0017d6 75%, #001fd7 100%);
     }
-    
+    nav > ul > li {
+        display: block;
+        width: 100%;
+        line-height: 70px;
+    }
+    nav li li {
+        max-height: 500px; /* Mostrar todos los submenús */
+        transition: all 1s;
+        overflow: visible;
+    }
+    nav li:hover > ul > li {
+        max-height: 500px;
+        overflow: visible;
+    }
 }
+
 body{
     background-size: cover;
    
