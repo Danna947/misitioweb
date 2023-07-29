@@ -8,6 +8,7 @@ body{
     justify-content: center;
     align-items: center;   
     margin: 40px; 
+    background-color: beige;
 }
 .temr-condition{
     position: relative;
@@ -16,7 +17,7 @@ body{
     padding: 45px;
     justify-content: center;
     align-items: center;
-    background-color:whitesmoke;
+    background-color:beige;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
     z-index: 20;
@@ -63,11 +64,8 @@ h3{
 }
 @media screen and (max-width: 768px) {
     .temr-condition {
-
+        width: 80%;
         padding: 20px; /* Reducimos el padding para pantallas más pequeñas */
-        position: fixed;
-        
-       
         
     }
 
@@ -87,7 +85,7 @@ h3{
 
     .button {
         width: 30%; /* Ajustamos el ancho del botón para pantallas más pequeñas */
-        margin: 20px auto; /* Centramos el botón horizontalmente */
+        margin: 20px 20px auto; /* Centramos el botón horizontalmente */
         padding: 8px; /* Ajustamos el padding del botón */
         font-size: 1em; /* Reducimos el tamaño de fuente del botón para pantallas más pequeñas */
        
