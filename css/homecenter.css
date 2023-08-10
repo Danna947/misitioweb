@@ -88,8 +88,10 @@ input{
     display:flex
 }
 .x-exit{
+    position: relative;
     font-size: 23px;
-    margin-left: 23px;
+    margin-left: 30px;
+    
 }
 
 /* body{
