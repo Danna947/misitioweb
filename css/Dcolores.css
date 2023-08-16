@@ -1,5 +1,17 @@
 body{
     background-color: rgba(227, 19, 235, 0.699);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.volver .cont-icon .icon a{
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+}
+.volver{
+    position: relative;
+    top: 12px;
+    float: right;
+    right: 23px;
 }
 .cont{
     display:inline-block;

@@ -39,23 +39,32 @@ body {
 #backmenu {
   display: none;
 }
+.menu-list li{
+  color: #fff;
+}
 .menu-list {
   margin-top: -190;
   display: flex;
   gap: 90px;
   text-decoration: none;
   list-style: none;
+ color: #fff;
   padding: 34px;
   font-size: 1.5em;
 }
-.menu-list li {
+.menu-list li a{
   margin-bottom: 23px;
   text-decoration: none;
+  list-style: none;
   color: #fff;
+  cursor: pointer;
 }
-.menu-list :hover {
+.menu-list a:hover {
   color: #ab90b9;
   transition: all 300ms;
+  list-style: none;
+  text-decoration: none;
+  counter-reset: #fff;
 }
 p {
   margin-top: 40px;
@@ -78,6 +87,11 @@ p {
   left: 90px;
   font-size: 12px;
   transition: all 600ms; 
+  color: transparent;
+  backdrop-filter: blur(12px);
+  border: 2px;
+  border-radius: 12px solid black;
+ 
 }
 .sentence-key{
   font-family: Gotham;
@@ -129,15 +143,18 @@ p {
     bottom:-40px;
     left: 0px;
     font-size: 12px;
-    transition: all 600ms; 
+    transition: all 600ms;
+    border-radius: 2px solid black; 
+
   }
-  p {
+  .cuerpo{
     margin-top: 54px;
     color: #f2f2f2;
     margin-left: 20px;
     font-size: 1em;
     display: flex;
     padding: 12px;
+    margin-bottom: 50px;
   }
   .logo img {
     display: none;
