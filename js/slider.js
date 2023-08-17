@@ -4,8 +4,6 @@
  let imgLeopard = document.getElementById("imgLeopard");
  let imgNature = document.getElementById("imgNature");
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
  arrowLeft.addEventListener("click", function(){
    if (imgSea.classList.contains("img-sea")) {
@@ -26,17 +24,13 @@
         imgNature.classList.add("img-nature-hideen");
    
     }
-=======
-=======
->>>>>>> 185c906fa594266626909addbf61f8857fafaaa5
+   });
 arrowRigth.addEventListener("click", function(){
  if(imgSea.classList.contains("img-sea")){
     imgSea.classList.remove("img-sea");
     imgSea.classList.add("img-sea-hideen");
     imgLeopard.classList.add("img-leopard");
     imgLeopard.classList.remove("img-leopard-hideen-right");
-<<<<<<< HEAD
-=======
 
  }
  else if(imgLeopard.classList.contains("img-leopard")){
@@ -53,25 +47,21 @@ arrowLeft.addEventListener("click", function(){
    imgNature.classList.add("img-nature-hideen-right");
    imgLeopard.classList.add("img-leopard");
    imgLeopard.classList.remove("img-leopard-hideen-left")
->>>>>>> 185c906fa594266626909addbf61f8857fafaaa5
 
  }
  else if(imgLeopard.classList.contains("img-leopard")){
    imgLeopard.classList.remove("img-leopard");
-<<<<<<< HEAD
    imgLeopard.classList.add("img-leopard-hideen-left");
    imgNature.classList.add("img-nature");
    imgNature.classList.remove("img-nature-hideen-right");
 
  }
-=======
+
    imgLeopard.classList.add("img-leopard-hideen-right");
    imgSea.classList.add("img-sea");
    imgSea.classList.remove("img-sea-hideen");
 
- }
  
->>>>>>> 185c906fa594266626909addbf61f8857fafaaa5
 });
 arrowLeft.addEventListener("click", function(){
  if(imgNature.classList.contains("img-nature")){;
@@ -88,8 +78,6 @@ arrowLeft.addEventListener("click", function(){
    imgSea.classList.remove("img-sea-hideen");
 
  }
- 
->>>>>>> 2b3c68441b39e8e0a38fa61bb283553b63b3e04a
 });
 arrowRigth.addEventListener("click", function(){
    if (imgNature.classList.contains("img-nature")) {
@@ -107,12 +95,8 @@ arrowRigth.addEventListener("click", function(){
    else if(imgSea.classList.contains("img-sea")){
           imgSea.classList.remove("img-sea");
          imgSea.classList.add("img-sea-hideen-rigth");
-      
-
   }
   
-   
-
  });
 
 

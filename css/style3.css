@@ -3,7 +3,18 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
-
+.cont-img{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+  align-items: center;
+}
+.cont-img .cont-danna img{
+  padding: 12px;
+  border: 1px solid #ab90b9;
+  border-radius: 100px;
+}
 body {
   margin: 0;
   padding: 0;
@@ -43,7 +54,7 @@ body {
   color: #fff;
 }
 .menu-list {
-  margin-top: -190;
+  margin-top: -180px;
   display: flex;
   gap: 90px;
   text-decoration: none;
@@ -73,7 +84,7 @@ p {
   color: #f2f2f2;
   margin-left: 8px;
   font-size: 2em;
-  margin-bottom: 12px;
+  margin-bottom: 100px;
 }
 .name-marca{
   margin-bottom: 23px;
@@ -84,8 +95,8 @@ p {
   display: flex;
   color: #f2f2f2;
   bottom:-30px;
-  left: 90px;
-  font-size: 12px;
+  font-size: 0.9em;
+  padding: 15px;
   transition: all 600ms; 
   color: transparent;
   backdrop-filter: blur(12px);
@@ -274,7 +285,7 @@ footer {
   margin-top: 20px;
 }
 .footer-bottom p {
-  color:  #ab90b9;
+  color:  #fff;
   font-size: 12px;
   margin: 5px 0;
 }

@@ -12,11 +12,7 @@ a{
     color: rgb(245, 17, 74);
     letter-spacing: 0.1em;
     text-decoration: none;
-  
-    
-
 }
-
 img{
     position: absolute;
     z-index: -1;

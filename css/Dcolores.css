@@ -7,7 +7,9 @@ body{
     position: relative;
     left: 10px;
 }
+
 .volver{
+    color: black;
     position: relative;
     top: 12px;
     float: right;
