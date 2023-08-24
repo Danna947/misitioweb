@@ -18,3 +18,19 @@ idexit.addEventListener("click",function(){
 
 
 });
+
+let iconarrowLeft = document.getElementById("iconarrowLeft");
+iconarrowLeft.addEventListener("click",function(){
+    alert("hi");
+
+});
+
+let iconarrowRigth= document.getElementById("iconarrowRigth");
+let idSlider= document.getElementById("idSlider");
+iconarrowLeft.addEventListener("click",function(){
+    if(idSlider.classList.contains("slider-view-1")){
+        idSlider.classList.add("slider-view-2");
+        idSlider.classList.remove("slider-view-1");
+
+    }
+});
