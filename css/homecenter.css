@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body {
     background-color: white;
@@ -209,7 +209,7 @@ input {
                    "frm-input" 60px
                    "frm-exit" 80px/
                     406px;     
-    transition: all 300ms ;
+ 
 }
 .form-header {
     grid-area: frm-header;
@@ -503,8 +503,8 @@ input {
     transition: all 300ms ;
     position: fixed;
     right: 20px;
-    height: 100vh;
-    top: 0;
+    height: 80vh;
+    top: 150px;
     width: 406px;
     display: grid;
     grid-template: "frm-header" 70px
@@ -521,7 +521,7 @@ input {
     grid-template-columns:  1.5fr    0.9fr;
     grid-template-rows:     70px       50px;
     gap: 30px;
-    top:700px;
+    top:680px;
     float: right;
     right: 57px;
  
@@ -531,24 +531,22 @@ input {
     border-radius: 60px;
     cursor: pointer;
 }
-
 .form-first-hideen{
     visibility: hidden;
-    transition: all 300ms;
 }
 .avatar{
     width: 50%;
 }
 .avatar-hideen{
-    width: 50%;
+    width: 40%;
     visibility: hidden;
+    align-items: center;  
 }
 .cont-letter{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 /* Fonts... */
 /* lato-100 - latin */
