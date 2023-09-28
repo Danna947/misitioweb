@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont-head{
+    background-color: rgba(255, 241, 89);
+    display: grid;
+    width: 100%;
+    grid-template: "img-logo     input-busqueda  menu-hamburguer   carrito-compra  " 70px/
+                        100px          180px         60px     150px;
+}
+.img-logo{
+    grid-area: img-logo;
+    width: 24px;
+    text-align: right;
+}
+.menu-hamburguer {
+    grid-area: menu-hamburguer;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.carrito-compra {
+    margin-top: 20px;
+    grid-area: carrito-compra;
+    width: 60px
+}
+.input-busqueda{
+    grid-area: input-busqueda;
+    display: flex;
+    position: relative;
+    top: 23px;
+}
+.box-auto{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    background-color: royalblue;
+}
