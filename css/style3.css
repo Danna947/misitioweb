@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/imgdan/desktop-4.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 .cont-img{
   display: flex;
@@ -14,11 +23,6 @@
   padding: 12px;
   border: 1px solid #ab90b9;
   border-radius: 100px;
-}
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #1b003a;
 }
 .back-logo img {
   display: none;
@@ -37,9 +41,11 @@ body {
   list-style: none;
 }
 .separating {
+  display: flex;
+  margin-top: -80px;
   width: 100%;
   height: 0.5vh;
-  background-color: #ab90b9;
+  background-color:#00122F;
   transform: all 400ms;
 }
 
@@ -71,14 +77,13 @@ body {
   cursor: pointer;
 }
 .menu-list a:hover {
-  color: #ab90b9;
+  color: #0049bfc6;
   transition: all 300ms;
   list-style: none;
   text-decoration: none;
   counter-reset: #fff;
 }
 p {
-  margin-top: 40px;
   display: flex;
   align-items: center;
   color: #f2f2f2;
@@ -87,21 +92,26 @@ p {
   margin-bottom: 100px;
 }
 .name-marca{
+  position: relative;
+  margin-top: 50px;
   margin-bottom: 23px;
+  margin-left:53px;
   
 }
 .cont-light{
   position: relative;
-  display: flex;
   color: #f2f2f2;
   bottom:-30px;
-  font-size: 0.9em;
-  padding: 15px;
+  font-size: 0.8em;
+  padding: 70px;
   transition: all 600ms; 
   color: transparent;
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(5px);
   border: 2px;
   border-radius: 12px solid black;
+  width: 50%;
+  height: 15vh;
+
  
 }
 .sentence-key{
@@ -133,7 +143,7 @@ p {
     position: fixed;
     top: 45px;
     box-shadow: 16px 6px 30px #1b003a;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(5px);
     width: 200px;
     height: 100vh;
     right: -250px;
@@ -215,8 +225,10 @@ p {
   }
 }
 footer {
-  box-shadow: 0px 0px 10px;
-  backdrop-filter: blur(12px);
+  position: relative;
+  top: 350px;
+  box-shadow: 0px 0px 10px  #0049bfc6;
+  backdrop-filter: blur(10px);
   padding: 10px;
 }
 .footer-content {
@@ -236,11 +248,11 @@ footer {
 }
 footer {
   padding: 20px;
-  color: #fff;
+  color: #f2f2f2b6;
   text-align: center;
 }
 .icons-socialmedia {
-  color:  #ab90b9;
+  color:  #f2f2f2b6;
   margin-top: 24px;
   display: flex;
   gap: 30px;

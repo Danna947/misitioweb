@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif; 
-    background-color: #1b003a;
+    background-color: black;
     
 }
 .volver .cont-icon .icon a{
@@ -12,7 +12,7 @@
     right:-15px;
 }
 .volver .cont-icon .icon a:hover{
-    color: blueviolet;
+    color: #0049bfc6;
     text-decoration: none;
     position: relative;
 }
@@ -57,9 +57,7 @@
     cursor: pointer;
     top: 34px;
 }
-.cont-fuentes p:hover{
-    color: blueviolet
-}
+
 .cont-fuentes{
     transition: all 300ms;
     display: inline-block;
@@ -68,7 +66,7 @@
     text-align: center;
     border-radius:30px;
     background-color: transparent;
-    box-shadow: 0px 0px 10px blueviolet;
+    box-shadow: 0px 0px 15px #0049bfc6 ;
     backdrop-filter: blur(20px);
 }
 .fuentes nav ul li a{
@@ -91,6 +89,6 @@
     text-decoration: none;
 }
 .fuentes nav ul li :hover{
-    color: #815c97;
+    color: #1350b1;
     transition: 600ms;
 }
