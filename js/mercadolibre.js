@@ -11,15 +11,12 @@ function Automovil(marca, modelo, precio, anyo, ciudad, kilometros,imagen) {
 // funcion con todos los atributos del objeto automóvil
 //array con los atributos de los objetos//
 let autos=[
-    
     new Automovil("Toyota","TXL",190000000,2021,"Bogotá-Cundinamarca",35420,"imgdan/toyota-xtll-d.jpg"),
     new Automovil("Mercedes Benz","CLA-200",187000000,2023,"Medellin-Antioquia ",7000,"imgdan/mercedes.png"),
     new Automovil("Nissan ","Kicks 1.6 Advance",74900000,2018,"Bogotá-Cundinamarca",82600,"imgdan/nissan-naranja.png"),
     new Automovil("Mazda","Grand Tourling",78000000,2019,"Boston-Medellin-Antioquia",16000,"imgdan/mazda-azul.png"),
     new Automovil("Nissan","Pathfinder",83500000,2015,"Medellin-Antioquia",68000,"imgdan/nissa-path.png"),
-
 ]
-
 let inputbusqueda = document.getElementById("inputBusqueda");
 
 inputbusqueda.addEventListener("keydown",function(event){
