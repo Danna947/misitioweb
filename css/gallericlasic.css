@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont-title2 h5{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -14px;
+    left: 90%;
+}
+.cont-title1 h1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 14px;
+    left: 23px;
+}
