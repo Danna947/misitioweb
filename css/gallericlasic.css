@@ -476,7 +476,7 @@ p{
     color: #fff; 
     position: absolute;
     top: 999px;
-    right: 518px;
+    right: 55px;
     height: 100px;
     width: 21.2%;
     bottom: 0;
@@ -490,16 +490,17 @@ p{
 .title-therteen{
     position: relative;
     font-size: 1.5rem;
-    top: -47px;
+    top: -67px;
+    left: 27px;
     font-size: 2rem;
     letter-spacing: 1px;
 
 }
 .text-img-therteen{
-    top: -10px;
+    top: 15px;
     position: relative;
     display: flex;
-    left:-167px;
+    left:-247px;
     letter-spacing: 1px;
 
 } 
@@ -509,8 +510,8 @@ p{
     background: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.7));
     color: #fff; 
     position: absolute;
-    top: 570px;
-    right: 518px;
+    top: 1380px;
+    right: 55px;
     height: 100px;
     width: 21.2%;
     bottom: 0;
@@ -524,16 +525,17 @@ p{
 .title-fourteen{
     position: relative;
     font-size: 1.5rem;
-    top: -47px;
+    top: -57px;
+    left: 27px;
     font-size: 2rem;
     letter-spacing: 1px;
 
 }
 .text-img-fourteen{
-    top: -10px;
+    top: 10px;
     position: relative;
     display: flex;
-    left:-167px;
+    left:-257px;
     letter-spacing: 1px;
 
 } 
@@ -543,8 +545,8 @@ p{
     background: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.7));
     color: #fff; 
     position: absolute;
-    top: 570px;
-    right: 518px;
+    top: 1950px;
+    right: 56px;
     height: 100px;
     width: 21.2%;
     bottom: 0;
