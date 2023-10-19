@@ -1,18 +1,142 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.cont-title2 h5{
+
+.cont-title2 h5 {
     display: flex;
     align-items: center;
     position: relative;
-    top: -14px;
-    left: 90%;
+    top: 10px;
+    color: #a09d9d;
+    left: 81.7%;
+    letter-spacing: 3px;
 }
-.cont-title1 h1{
+
+hr {
+    display: flex;
+    position: relative;
+    top: 40px;
+    width: 94.5%;
+    left: 3%;
+    color: #a09d9d;
+}
+.cont-title1 h1 {
     display: flex;
     align-items: center;
     position: relative;
-    top: 14px;
-    left: 23px;
+    top: 30px;
+    left: 45px;
+    letter-spacing: 2px;
+    font-family: 'Abril Fatface', serif;
 }
+
+img {
+    width: 100%;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+
+.column {
+    margin-top: 30px;
+    flex: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.guernica{
+    margin-top: 30px;
+}
+.text-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    color: #fff; /* Texto en color blanco */
+    position: absolute;
+    top: 265px;
+    left: 55px;
+    right: -34px;
+    height: 100px;
+    width: 20.5%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    opacity: 0; /* Inicialmente oculto */
+    transition: opacity 0.3s ease; /* Animación de opacidad */
+}
+h5{
+    font-size: 1.5rem;
+}
+p{
+    top: 13px;
+    position: relative;
+    display: flex;
+    left: -130px;
+}
+.text-overlay:hover {
+    opacity: 1; /* Mostrar el texto al pasar el mouse por encima */
+}
+
+.column img {
+    width: 100%;
+    margin-top: auto;
+}
+
+@media (max-width: 1000px) {
+    .column {
+        flex: 50%;
+    }
+
+    hr {
+        display: flex;
+        position: relative;
+        top: 23px;
+    }
+
+    .cont-title2 h5 {
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: -1px;
+        left: 67%;
+    }
+}
+
+@media (max-width: 700px) {
+    .column {
+        flex: 100%;
+    }
+    hr {
+        display: flex;
+        position: relative;
+        top: 23px;
+    }
+    .cont-title2 h5 {
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: -5px;
+        color: #a09d9d;
+        left: 60%;
+        letter-spacing: 1px;
+        font-size: 0.7em;
+    }
+    .cont-title1 h1 {
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: 20px;
+        left: 45px;
+        letter-spacing: 2px;
+        font-family: 'Abril Fatface', serif;
+    }
+    
+ 
+}
+
