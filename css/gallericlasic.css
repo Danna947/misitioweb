@@ -10,15 +10,15 @@
     position: relative;
     top: 10px;
     color: #a09d9d;
-    left: 81.7%;
+    left: 84.7%;
+    font-size: 1.3rem;
     letter-spacing: 3px;
 }
-
 hr {
     display: flex;
     position: relative;
     top: 40px;
-    width: 94.5%;
+    width: 94.2%;
     left: 3%;
     color: #a09d9d;
 }
@@ -27,7 +27,8 @@ hr {
     align-items: center;
     position: relative;
     top: 30px;
-    left: 45px;
+    font-size: 3rem;
+    left: 60px;
     letter-spacing: 2px;
     font-family: 'Abril Fatface', serif;
 }
@@ -53,35 +54,525 @@ img {
 .guernica{
     margin-top: 30px;
 }
+ /* estilos de el texto de la 1 pintura */
 .text-overlay {
-    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
-    color: #fff; /* Texto en color blanco */
+    background: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,30));
+    color: #fff; 
     position: absolute;
-    top: 265px;
+    top: 345px;
     left: 55px;
     right: -34px;
     height: 100px;
-    width: 20.5%;
+    width: 21.1%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  
+}
+
+h5{
+    position: relative;
+    font-size: 1.5rem;
+    top: -20px;
+    left: -15px;
+    font-size: 2rem;
+}
+p{
+    top: -5px;
+    position: relative;
+    display: flex;
+    left: -185px;
+    letter-spacing: 1px;
+
+}
+ /* estilos de el texto de la  2 pintura */
+ .text-overlay-two{
+    background: linear-gradient(180deg,rgba(0,0,0,0.01),rgba(0,0,0,30));
+    color: #fff; 
+    position: absolute;
+    top: 765px;
+    left: 55px;
+    right: -34px;
+    height: 200px;
+    width: 21.1%;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    opacity: 0; /* Inicialmente oculto */
-    transition: opacity 0.3s ease; /* Animación de opacidad */
+  
 }
-h5{
+
+.title-two{
+    position: relative;
     font-size: 1.5rem;
+    top: -27px;
+    left: 4px;
+    font-size: 2rem;
+    letter-spacing: 1px;
 }
-p{
-    top: 13px;
+.text-img-two{
+    top: 10px;
     position: relative;
     display: flex;
-    left: -130px;
+    left: -245px;
+    letter-spacing: 1px;
+
 }
-.text-overlay:hover {
-    opacity: 1; /* Mostrar el texto al pasar el mouse por encima */
+
+/* estilos de la 3  pintura */
+
+.text-overlay-three{
+    background: linear-gradient(180deg,rgba(0,0,0,0.01),rgba(0,0,0,30));
+    color: #fff; 
+    position: absolute;
+    top: 1320px;
+    left: 55px;
+    right: -34px;
+    height: 200px;
+    width: 21.1%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
 }
+.title-three{
+    position: relative;
+    font-size: 1.5rem;
+    top: -27px;
+    left: 4px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-three{
+    top: 10px;
+    position: relative;
+    display: flex;
+    letter-spacing: 1px;
+
+}
+/* estilos del texto de la 4 pintura */
+
+.text-overlay-four{
+    background: linear-gradient(180deg,rgba(0,0,0,0.01),rgba(0,0,0,30));
+    color: #fff; 
+    position: absolute;
+    top: 1852px;
+    left: 55px;
+    right: -34px;
+    height: 200px;
+    width: 21.1%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.title-four{
+    position: relative;
+    font-size: 1.5rem;
+    top: -27px;
+    left: 4px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-four{
+    top: 10px;
+    position: relative;
+    display: flex;
+    left: -202px;
+    letter-spacing: 1px;
+
+}
+/* estilos del texto de la 5 pintura */ 
+
+.text-overlay-five {
+    background: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,30));
+    color: #fff; 
+    position: absolute;
+    top: 565px;
+    left: 520px;
+    right: -34px;
+    height: 100px;
+    width: 21.1%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  
+}
+.title-five{
+    position: relative;
+    font-size: 1.5rem;
+    top: -67px;
+    left: 25px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-five{
+    top: -5px;
+    position: relative;
+    display: flex;
+    left: -225px;
+    letter-spacing: 1px;
+
+} 
+/* estilos del texto de la 6 pintura */
+.text-overlay-six{
+    background: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,30));
+    color: #fff; 
+    position: absolute;
+    top: 975px;
+    left: 519px;
+    right: -34px;
+    height: 100px;
+    width: 21.1%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.title-six{
+    position: relative;
+    font-size: 1.5rem;
+    top: -67px;
+    left: 25px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-six{
+    top: -5px;
+    position: relative;
+    display: flex;
+    left: -225px;
+    letter-spacing: 1px;
+
+} 
+/* estilos del texto de la 7 pintura */
+.text-overlay-seven{
+    background: linear-gradient(180deg,rgba(0,0,0,0.01),rgba(0,0,0,30));
+    color: #fff; 
+    position: absolute;
+    top: 1375px;
+    left: 518px;
+    right: -34px;
+    height: 100px;
+    width: 21.2%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.title-seven{
+    position: relative;
+    font-size: 1.5rem;
+    top: -67px;
+    left: 25px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-seven{
+    top: -20px;
+    position: relative;
+    display: flex;
+    left: -197px;
+    letter-spacing: 1px;
+
+} 
+/* estilos del texto de la 8 pintura */
+.text-overlay-eight{
+    background: linear-gradient(180deg,rgba(0,0,0,0.01),rgba(0,0,0,30));
+    color: #fff; 
+    position: absolute;
+    top: 1952px;
+    left: 518px;
+    right: -34px;
+    height: 100px;
+    width: 21.2%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.title-eight{
+    position: relative;
+    font-size: 1.5rem;
+    top: -67px;
+    left: 25px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-eight{
+    top: -20px;
+    position: relative;
+    display: flex;
+    left: -235px;
+    letter-spacing: 1px;
+
+} 
+/* estilos del texto de la 9 pintura */
+.text-overlay-nine{
+    background: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.7));
+    color: #fff; 
+    position: absolute;
+    top: 570px;
+    right: 518px;
+    height: 100px;
+    width: 21.2%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.title-nine{
+    position: relative;
+    font-size: 1.5rem;
+    top: -47px;
+    left: -35px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-nine{
+    top: -10px;
+    position: relative;
+    display: flex;
+    left: -165px;
+    letter-spacing: 1px;
+
+} 
+/* estilos del texto de la 10 pintura */
+.text-overlay-ten{
+    background: linear-gradient(180deg,rgba(0,0,0,0.01),rgba(0,0,0,30));
+    color: #fff; 
+    position: absolute;
+    top: 1207px;
+    right: 517px;
+    height: 100px;
+    width: 21.2%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.title-ten{
+    position: relative;
+    font-size: 1.5rem;
+    top: -47px;
+    left: 15px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-ten{
+    top: 15px;
+    position: relative;
+    display: flex;
+    left: -197px;
+    letter-spacing: 1px;
+
+} 
+/* estilos del texto de la 11 pintura */
+.text-overlay-eleven{
+    background: linear-gradient(180deg,rgba(0,0,0,0.01),rgba(0,0,0,00.1));
+    color: #fff; 
+    position: absolute;
+    top: 1952px;
+    right: 520px;
+    height: 100px;
+    width: 21.2%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.title-eleven{
+    position: relative;
+    font-size: 1.5rem;
+    top: -47px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-eleven{
+    top: -10px;
+    position: relative;
+    display: flex;
+    left:-167px;
+    letter-spacing: 1px;
+
+} 
+/* estilos del texto de la 12 pintura */
+
+.text-overlay-twelf{
+    background: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.7));
+    color: #fff; 
+    position: absolute;
+    top: 630px;
+    right: 58px;
+    height: 100px;
+    width: 20.5%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.title-twelf{
+    position: relative;
+    font-size: 1.5rem;
+    top: -67px;
+    left: 23px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-twlef{
+    top: 5px;
+    position: relative;
+    display: flex;
+    left:-210px;
+    letter-spacing: 1px;
+
+} 
+
+/* estilos del texto de la pintura 13 */
+.text-overlay-therteen{
+    background: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.7));
+    color: #fff; 
+    position: absolute;
+    top: 999px;
+    right: 518px;
+    height: 100px;
+    width: 21.2%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.title-therteen{
+    position: relative;
+    font-size: 1.5rem;
+    top: -47px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-therteen{
+    top: -10px;
+    position: relative;
+    display: flex;
+    left:-167px;
+    letter-spacing: 1px;
+
+} 
+/* estilos del texto de la pintura 14 */
+
+.text-overlay-fourteen{
+    background: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.7));
+    color: #fff; 
+    position: absolute;
+    top: 570px;
+    right: 518px;
+    height: 100px;
+    width: 21.2%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.title-fourteen{
+    position: relative;
+    font-size: 1.5rem;
+    top: -47px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-fourteen{
+    top: -10px;
+    position: relative;
+    display: flex;
+    left:-167px;
+    letter-spacing: 1px;
+
+} 
+/* estilos del texto de la pintura 15 */
+
+.text-overlay-fifteen{
+    background: linear-gradient(180deg,rgba(0,0,0,0.1),rgba(0,0,0,0.7));
+    color: #fff; 
+    position: absolute;
+    top: 570px;
+    right: 518px;
+    height: 100px;
+    width: 21.2%;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.title-fifteen{
+    position: relative;
+    font-size: 1.5rem;
+    top: -47px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+}
+.text-img-fifteen{
+    top: -10px;
+    position: relative;
+    display: flex;
+    left:-167px;
+    letter-spacing: 1px;
+
+} 
+
+
 
 .column img {
     width: 100%;
