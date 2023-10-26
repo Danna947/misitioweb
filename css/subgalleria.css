@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+
+
 }
 
 .cont-title2 h5 {
@@ -55,3 +57,21 @@ img{
 .desc{
     padding: 10px;
 }
+.number{
+    margin-top: 45px;
+    font-size: 15rem;
+    color: rgba(58, 41, 41, 0.075);
+    
+}
+.text{
+    position: relative;
+    top: -200px;
+    z-index: 10;
+    padding: 100px;
+    left: -60px;
+    justify-content: center;
+    line-height:1.7;
+    color: rgba(58, 41, 41, 0.651);
+}
+
+

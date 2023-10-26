@@ -1,8 +1,6 @@
  let galleryItem = document.getElementById("galleryItem");
+ let contHideen = document.getElementById("contHideen");
 
 
 
 
-galleryItem.addEventListener('click',function(){
-    alert("Hola Cielo estrellado");
- });
