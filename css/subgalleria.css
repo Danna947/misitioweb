@@ -72,19 +72,19 @@ img{
 
 @media (max-width: 768px) {
     .cont-desc {
-        grid-auto-rows: auto; /* Ajustado para que las filas se adapten automáticamente */
-        gap: 10px; /* Reducido el espacio entre elementos */
+        grid-auto-rows: auto; 
+        gap: 10px; 
         margin-top: 20px;
     }
     .number {
         margin-top: 10px;
-        font-size: 6rem; /* Reducido aún más el tamaño de fuente */
+        font-size: 6rem;
     }
 
 
     .text {
-        top: -20px; /* Ajustado para pantallas más pequeñas */
-        padding: 10px; /* Reducido el relleno */
+        top: -20px; 
+        padding: 10px; 
         line-height: 1.3;
     }
 }
