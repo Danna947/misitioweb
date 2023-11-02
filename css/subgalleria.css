@@ -1,10 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
-
 }
-
 .cont-title2 h5 {
     display: flex;
     align-items: center;
@@ -39,7 +36,6 @@ hr {
     padding: 20px;
     gap: 100px;
     margin-top: 70px;
-    
 }
 img{
     width: 100%;
@@ -60,8 +56,7 @@ img{
 .number{
     margin-top: 45px;
     font-size: 15rem;
-    color: rgba(58, 41, 41, 0.075);
-    
+    color: rgba(58, 41, 41, 0.075); 
 }
 .text{
     position: relative;
@@ -74,4 +69,23 @@ img{
     color: rgba(58, 41, 41, 0.651);
 }
 
+
+@media (max-width: 768px) {
+    .cont-desc {
+        grid-auto-rows: auto; /* Ajustado para que las filas se adapten automáticamente */
+        gap: 10px; /* Reducido el espacio entre elementos */
+        margin-top: 20px;
+    }
+    .number {
+        margin-top: 10px;
+        font-size: 6rem; /* Reducido aún más el tamaño de fuente */
+    }
+
+
+    .text {
+        top: -20px; /* Ajustado para pantallas más pequeñas */
+        padding: 10px; /* Reducido el relleno */
+        line-height: 1.3;
+    }
+}
 
