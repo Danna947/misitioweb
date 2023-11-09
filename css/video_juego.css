@@ -2,10 +2,27 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: url("../imgdan/arbol_hadas.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.cont-tinkerbell{
+    width: 100%;
 
 }
+.cont-tinkerbell{
+    display: flex;
+    position: relative;
+    z-index: 30;
+    width: 100%;
+
+}
+.thinkerbell{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 200px;
+    z-index: 20;
+}
+
+
+    
+
+
+
