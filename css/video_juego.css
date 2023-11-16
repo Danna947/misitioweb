@@ -1,25 +1,31 @@
 *{
     margin: 0;
     padding: 0;
-}
-.cont-tinkerbell{
-    width: 100%;
 
 }
-.cont-tinkerbell{
-    display: flex;
-    position: relative;
-    z-index: 30;
+.img-arbol{
+    display: block;
     width: 100%;
+    height: auto;
+}
+.img-tik{
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 1;
+   transition: all 4s;
+   transform: translateY(200%);
+}
+.show{
+    opacity: 0;
+    transform: translateX(300%);
+
 
 }
-.thinkerbell{
-    display: flex;
-    position: relative;
-    width: 50%;
-    height: 200px;
-    z-index: 20;
-}
+
+
+
+
 
 
     
