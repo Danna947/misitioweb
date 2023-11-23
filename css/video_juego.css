@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
 }
-body{
-background-image: url("../imgdan/el_secreto_hadasjpeg.jpeg"); 
-width: 100%;
-height: 100vh; 
+.img-arbol{
+    position: absolute;
+    width: 100%;
+    height:100vh;
 }
 .img-tik{
     position: relative;
@@ -14,10 +14,13 @@ height: 100vh;
 }
 #ContImgBox{
     position: absolute;
-    width: 175px;
-    height: 175px;
-    transition:  all 1s;
+    transition: all 1s;
 }
+/* .show-dow{
+    opacity: 1;
+    transform: translateY(100%);
+} */
+
 
 
 
