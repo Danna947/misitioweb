@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-background-image: url("/imgdan/el_secreto_hadasjpeg.jpeg"); 
+background-image: url("../imgdan/el_secreto_hadasjpeg.jpeg"); 
 width: 100%;
 height: 100vh; 
 }
