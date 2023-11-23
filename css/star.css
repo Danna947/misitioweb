@@ -7,7 +7,13 @@
     position: relative;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
     width: 200px;
     height: 200px;
+}
+.cont-stars{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
 }

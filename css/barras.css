@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box-inputs{
+    font-weight:300;
+    background-color: skyblue;
+    display: block;
+    width: 300px;
+    padding: 12px;
+    height: auto;
+    position: relative;
+    margin: 12px;
+}
+.btn-graficar{
+    cursor: pointer;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+
+}
+input{
+    border-style: none;
+    border-radius: 5px;
+}
+.sta-Bars{
+    display:block;
+    width: 300px;
+    padding: 50px;
+}
+.bars{
+    display: flex;
+    position: relative;
+    margin-left: 14px;
+    background-color: rgb(228, 217, 217);
+    border-radius: 20px;
+    width: 200px;
+    height: 35px;
+}
+progress{
+    transition: all 1s;
+}
+
