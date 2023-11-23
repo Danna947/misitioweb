@@ -1,18 +1,48 @@
-const interaccion = new IntersectionObserver((entries)=>{//entradas
-    entries.forEach((entry)=>{
-        console.log(entry)//cuando se cruza el obejtivo//
-        if(entry.isIntersecting){
-            entry.target.classList.add('show');
+window.onload = () =>{
+    const ContImgBox ={
+        Element : document.getElementById("ContImgBox"),
+        topPosition :0,
+        leftPosition:0,
+        translate:(5),
+        move: function(direction){
+            switch(direction){
+                case "ArrowUp":
+                   this.topPosition = this.topPosition - this.translate;
+                   this.Element.style.top = this.topPosition + "%";
 
-
-        }else{
-            entry.target.classList.remove('show')
+                    break;
+                    case "ArrowDown":
+                        this.topPosition = this.topPosition + this.translate;
+                        this.Element.style.top = this.topPosition + "%";
+                         break;
+                    case "ArrowRight":
+                                this.leftPosition = this.leftPosition + this.translate;
+                                this.Element.style.left = this.leftPosition + "%";
+                                break;
+                    case "ArrowLeft":
+                                    this.leftPosition = this.leftPosition - this.translate;
+                                    this.Element.style.left = this.leftPosition + "%";
+                                    break;
+                default:
+                
+            
+                    break;
+            }
         }
-    });
-});
+    };
+
+    onkeydown = (key)=>{
+        ContImgBox.move(key.code);
+    }
+
+};
 
 
 
-const tinkerbell = document.querySelectorAll('.img-tik');
 
-tinkerbell.forEach((el)=>interaccion.observe(el));
+    
+   
+
+
+
+
