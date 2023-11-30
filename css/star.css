@@ -1,19 +1,55 @@
+
 *{
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.box{
+.icon{
+    color: gold;
+    font-size: 2em;
+}
+.box-estrellas{
     display: flex;
     position: relative;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 200px;
+    flex-direction: row;
 }
-.cont-stars{
-    display: flex;
+.cont-head{
+    border-radius: 12px;
+    border: 1px solid black;
     position: relative;
-    align-items: center;
+    top: 100px;
+    left: 400px;
+    width: 500px;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.valor{
     background-color: skyblue;
+    border-style: none;
+    font-size: 1rem;
+    position: relative;
+    margin-left: 120px;
+    border-radius: 2px;
+    font-weight: 900;
+  
+}
+.cont-estrellas{
+    position: relative;
+    top: 100px;
+    left: -250px;
+    width: 100%;
+
+}
+.graficar{
+    border-style: none;
+    position: relative;
+    left: 13px;
+    background-color: skyblue;
+    border-radius: 2px;
+    width: 60px;
+    font-size: 1rem;
+    font-weight: 900;
+
 }

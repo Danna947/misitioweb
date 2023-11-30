@@ -1,33 +1,19 @@
-let puntuacion5 = document.getElementById("puntuacion5");
-let puntuacion4 = document.getElementById("puntuacion4");
-let puntuacion3 = document.getElementById("puntuacion3");
-let puntuacio2 = document.getElementById("puntuacio2");
-let puntuacio1 = document.getElementById("puntuacio1");
+function llenarBarras() {
+    let puntuacion5 = document.getElementById("puntuacion5").value;
+    let puntuacion4 = document.getElementById("puntuacion4").value;
+    let puntuacion3 = document.getElementById("puntuacion3").value;
+    let puntuacion2 = document.getElementById("puntuacion2").value;
+    let puntuacion1 = document.getElementById("puntuacion1").value;
 
+    let barras = document.querySelectorAll("#starBars progress");
 
-let btnEnviar = document.getElementById("btnEnviar");
+    barras[0].value = puntuacion5;
+    barras[1].value = puntuacion4;
+    barras[2].value = puntuacion3;
+    barras[3].value = puntuacion2;
+    barras[4].value = puntuacion1;
+  }
 
-
-
-
-btnEnviar.addEventListener("click",()=>{    
-
-    let valor = document.getElementById("valor").value;
-
-    if(valor>=1600 && valor<=2000)
-    puntuacion5.setAttribute("class","bar-1");
-
-});
-
-// btnEnviar.addEventListener("click", () =>{
-//     let valor = document.getElementById("valor").value;
-//     if(valor >= 0 && valor <=0.2){
-//         star1.setAttribute("class", "fa-regular fa-star");
-//         star2.setAttribute("class", "fa-regular fa-star");
-//         star3.setAttribute("class", "fa-regular fa-star");
-//         star4.setAttribute("class", "fa-regular fa-star");
-//         star5.setAttribute("class", "fa-regular fa-star");
-//     }
 
 
 

@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-.box-inputs{
-    font-weight:300;
+  }
+
+  .box-inputs {
+    font-weight: 300;
     background-color: skyblue;
     display: block;
     width: 300px;
@@ -11,8 +12,9 @@
     height: auto;
     position: relative;
     margin: 12px;
-}
-.btn-graficar{
+  }
+
+  .valor {
     cursor: pointer;
     width: 100px;
     display: flex;
@@ -20,18 +22,20 @@
     align-items: center;
     padding: 5px;
     position: relative;
+  }
 
-}
-input{
+  input {
     border-style: none;
     border-radius: 5px;
-}
-.sta-Bars{
-    display:block;
+  }
+
+  .sta-Bars {
+    display: block;
     width: 300px;
     padding: 50px;
-}
-.bars{
+  }
+
+  .bars {
     display: flex;
     position: relative;
     margin-left: 14px;
@@ -39,8 +43,8 @@ input{
     border-radius: 20px;
     width: 200px;
     height: 35px;
-}
-progress{
-    transition: all 1s;
-}
+  }
 
+  progress {
+    transition: all 1s;
+  }

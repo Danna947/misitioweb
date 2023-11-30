@@ -5,30 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/star.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
 </head>
 <body>
-    
-    <label>Ingrese un valor</label>
-        <input id="valor" type="number" step="0.1"><br><br>
-        <input id="btnEnviar" type="button" value="Graficar"><br><br>
-    
+    <div class="cont-head">
+    <input class="valor" id="valor" type="number" step="0.1" placeholder="Digite un Valor"><br><br>
+    <input  class="graficar" id="btnEnviar" type="button" value="Graficar"><br>
+  
+
+    <div class="cont-estrellas">
         <div class="box-estrellas">
-            <div class="icon estrella-1">
-                <i id="star1"></i>
-            </div>
-            <div class="icon estrella-2">
-                <i id="star2"></i>
-            </div>
-            <div class="icon estrella-3">
-                <i id="star3"></i>
-            </div>
-            <div class="icon estrella-4">
-                <i id="star4"></i>
-            </div>
-            <div class="icon estrella-5">
-                <i id="star5"></i>
-            </div>
+        <div class="icon estrella-1">
+            <i id="star1"></i>
         </div>
+        <div class="icon estrella-2">
+            <i id="star2"></i>
+        </div>
+        <div class="icon estrella-3">
+            <i id="star3"></i>
+        </div>
+        <div class="icon estrella-4">
+            <i id="star4"></i>
+        </div>
+        <div class="icon estrella-5">
+            <i id="star5"></i>
+        </div>
+        </div>
+    </div>
+</div>
+
+
     <script src="js/star.js"></script>
 </body>
 
