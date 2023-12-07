@@ -12,7 +12,7 @@ function llenarBarras() {
       let labels = document.querySelectorAll("#starBars .progress-label");
 
       barras.forEach((bar, index) => {
-        let porcentaje = (eval(`puntuacion${5 - index}`) / sumaTotal) * 100;
+        let porcentaje = (eval(`puntuacion${5 - index}`) / sumaTotal) * 100; // Aquí, 5 - index se utiliza para generar dinámicamente los números del 5 al 1. Explicado de manera simple, cuando index es 0, obtienes 5 - 0 = 5, cuando
         bar.value = porcentaje;
         labels[index].textContent = `${porcentaje.toFixed()}%`;
       });

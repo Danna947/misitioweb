@@ -45,11 +45,12 @@
     background-color: #4caf50;
   }
   progress[value]::-webkit-progress-bar {
-    background-color: #e0e0e0; /* Mismo color que el fondo */
+    background-color: #e0e0e0; /* Cuando la barra esta no este en progreso*/
   }
   
-  /* Estilo para la barra de progreso cuando está en un estado lleno */
+
   progress[value]::-webkit-progress-value {
-    background-color: #4caf50; /* Cambia este color al que desees cuando la barra esté llena */
+    background-color: #4caf50; /* Cambia cuando la barra esté llena */
   }
   
+  /* pseudo-elementos utilizan para seleccionar y estilizar partes específicas de un elemento sin la necesidad de agregar elementos en html  */
