@@ -25,6 +25,8 @@
     width: 100%;
     height: 20px;
     margin-bottom: 10px;
+    border: 5px;
+    border-radius: 3px;
     transition: value 0.5s ease-in-out; /* Agregamos una transición */
     background-color: #e0e0e0;
   }
@@ -45,12 +47,15 @@
     background-color: #4caf50;
   }
   progress[value]::-webkit-progress-bar {
+    border: 5px;
+    border-radius: 10px;
     background-color: #e0e0e0; /* Cuando la barra esta no este en progreso*/
   }
   
-
   progress[value]::-webkit-progress-value {
-    background-color: #4caf50; /* Cambia cuando la barra esté llena */
+    border: 1px;
+    border-radius: 2px;
+    transition: value 0.5s ease-in-out; /* Cambia cuando la barra esté llena */
   }
   
   /* pseudo-elementos utilizan para seleccionar y estilizar partes específicas de un elemento sin la necesidad de agregar elementos en html  */
